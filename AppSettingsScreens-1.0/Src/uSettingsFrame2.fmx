@@ -1,0 +1,732 @@
+object SettingsFrame2: TSettingsFrame2
+  Size.Width = 356.000000000000000000
+  Size.Height = 768.000000000000000000
+  Size.PlatformDefault = False
+  object BackgroundRect: TRectangle
+    Align = Contents
+    Fill.Color = xFFE26A5F
+    Size.Width = 356.000000000000000000
+    Size.Height = 768.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+  object HeaderToolBar: TToolBar
+    Size.Width = 356.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object HeaderBackgroundRect: TRectangle
+      Align = Contents
+      Fill.Color = xFFDA4537
+      Size.Width = 356.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+    end
+    object HeaderLabel: TLabel
+      Align = Contents
+      StyledSettings = [Family, Style]
+      Size.Width = 356.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'toollabel'
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      Text = 'Settings'
+      TabOrder = 1
+    end
+    object BackButton: TButton
+      Align = Left
+      Size.Width = 57.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'priortoolbutton'
+      TabOrder = 0
+      Text = 'BackButton'
+    end
+  end
+  object VertScrollBox1: TVertScrollBox
+    Align = Client
+    Size.Width = 356.000000000000000000
+    Size.Height = 719.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Viewport.Width = 356.000000000000000000
+    Viewport.Height = 719.000000000000000000
+    object HeaderGeneralLayout: TLayout
+      Align = Top
+      Size.Width = 356.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 24
+      object GeneralBackgroundRect: TRectangle
+        Align = Contents
+        Fill.Color = xFFE06054
+        Opacity = 0.500000000000000000
+        Size.Width = 356.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object GeneralLabel: TLabel
+        Align = Client
+        StyledSettings = [Family]
+        Margins.Left = 20.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 331.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claWhite
+        TextSettings.VertAlign = Trailing
+        Text = 'GENERAL'
+        TabOrder = 0
+      end
+    end
+    object AutoAdjustLayout: TLayout
+      Align = Top
+      Position.Y = 50.000000000000000000
+      Size.Width = 356.000000000000000000
+      Size.Height = 62.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 15
+      object AutoBackgroundRect: TRectangle
+        Align = Contents
+        Fill.Color = xFFE57C72
+        Opacity = 0.500000000000000000
+        Size.Width = 356.000000000000000000
+        Size.Height = 62.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object AutoAdjustLabel: TLabel
+        Align = Client
+        StyledSettings = [Family]
+        Margins.Left = 20.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 256.000000000000000000
+        Size.Height = 52.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.FontColor = claWhite
+        Text = 'Auto Adjust Brightness'
+        TabOrder = 0
+      end
+      object AutoAdjustSwitch: TSwitch
+        Align = Right
+        IsChecked = False
+        Opacity = 0.699999988079071000
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 20.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 20.000000000000000000
+        Position.X = 281.000000000000000000
+        Position.Y = 20.000000000000000000
+        Size.Width = 70.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+      end
+    end
+    object FilterLayout: TLayout
+      Align = Top
+      Position.Y = 112.000000000000000000
+      Size.Width = 356.000000000000000000
+      Size.Height = 62.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 14
+      object FilterBackgroundRect: TRectangle
+        Align = Contents
+        Fill.Color = xFFE57C72
+        Locked = True
+        Opacity = 0.500000000000000000
+        Size.Width = 356.000000000000000000
+        Size.Height = 62.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object BlueLightLabel: TLabel
+        Align = Client
+        StyledSettings = [Family]
+        Margins.Left = 20.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 256.000000000000000000
+        Size.Height = 52.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.FontColor = claWhite
+        Text = 'Blue Light Filter'
+        TabOrder = 0
+      end
+      object FilterSwitch: TSwitch
+        Align = Right
+        IsChecked = False
+        Opacity = 0.699999988079071000
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 20.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 20.000000000000000000
+        Position.X = 281.000000000000000000
+        Position.Y = 20.000000000000000000
+        Size.Width = 70.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+      end
+    end
+    object HeaderDisplayLayout: TLayout
+      Align = Top
+      Position.Y = 174.000000000000000000
+      Size.Width = 356.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 23
+      object DisplayBackgroundRect: TRectangle
+        Align = Contents
+        Fill.Color = xFFE06054
+        Locked = True
+        Opacity = 0.500000000000000000
+        Size.Width = 356.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object DisplayLabel: TLabel
+        Align = Client
+        StyledSettings = [Family]
+        Margins.Left = 20.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 331.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claWhite
+        TextSettings.VertAlign = Trailing
+        Text = 'DISPLAY'
+        TabOrder = 0
+      end
+    end
+    object BrightnessLayout: TLayout
+      Align = Top
+      Position.Y = 224.000000000000000000
+      Size.Width = 356.000000000000000000
+      Size.Height = 62.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 13
+      object BrightnessBackgroundRect: TRectangle
+        Align = Contents
+        Fill.Color = xFFE57C72
+        Locked = True
+        Opacity = 0.500000000000000000
+        Size.Width = 356.000000000000000000
+        Size.Height = 62.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object BrightnessLabel: TLabel
+        Align = Client
+        StyledSettings = [Family]
+        Margins.Left = 20.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 103.000000000000000000
+        Size.Height = 52.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.FontColor = claWhite
+        Text = 'Brightness'
+        TabOrder = 0
+      end
+      object BrightnessTrackBar: TTrackBar
+        Align = Right
+        CanParentFocus = True
+        Orientation = Horizontal
+        Margins.Right = 5.000000000000000000
+        Position.X = 123.000000000000000000
+        Position.Y = 22.000000000000000000
+        Size.Width = 228.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Value = 75.000000000000000000
+      end
+    end
+    object ContrastLayout: TLayout
+      Align = Top
+      Position.Y = 286.000000000000000000
+      Size.Width = 356.000000000000000000
+      Size.Height = 62.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 12
+      object ContrastBackgroundRect: TRectangle
+        Align = Contents
+        Fill.Color = xFFE57C72
+        Locked = True
+        Opacity = 0.500000000000000000
+        Size.Width = 356.000000000000000000
+        Size.Height = 62.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object ContrastLabel: TLabel
+        Align = Client
+        StyledSettings = [Family]
+        Margins.Left = 20.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 103.000000000000000000
+        Size.Height = 52.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.FontColor = claWhite
+        Text = 'Contrast'
+        TabOrder = 0
+      end
+      object ContrastTrackBar: TTrackBar
+        Align = Right
+        CanParentFocus = True
+        Orientation = Horizontal
+        Margins.Right = 5.000000000000000000
+        Position.X = 123.000000000000000000
+        Position.Y = 22.000000000000000000
+        Size.Width = 228.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Value = 25.000000000000000000
+      end
+    end
+    object HeaderSystemLayout: TLayout
+      Align = Top
+      Position.Y = 348.000000000000000000
+      Size.Width = 356.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 22
+      object SystemBackgroundRect: TRectangle
+        Align = Contents
+        Fill.Color = xFFE06054
+        Locked = True
+        Opacity = 0.500000000000000000
+        Size.Width = 356.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object SystemLabel: TLabel
+        Align = Client
+        StyledSettings = [Family]
+        Margins.Left = 20.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 331.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claWhite
+        TextSettings.VertAlign = Trailing
+        Text = 'SYSTEM'
+        TabOrder = 0
+      end
+    end
+    object HeaderBatteryLayout: TLayout
+      Align = Top
+      Position.Y = 522.000000000000000000
+      Size.Width = 356.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 21
+      object BatteryBackgroundRect: TRectangle
+        Align = Contents
+        Fill.Color = xFFE06054
+        Locked = True
+        Opacity = 0.500000000000000000
+        Size.Width = 356.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object BatteryLabel: TLabel
+        Align = Client
+        StyledSettings = [Family]
+        Margins.Left = 20.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 331.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claWhite
+        TextSettings.VertAlign = Trailing
+        Text = 'BATTERY'
+        TabOrder = 0
+      end
+    end
+    object TimeoutLayout: TLayout
+      Align = Top
+      Position.Y = 572.000000000000000000
+      Size.Width = 356.000000000000000000
+      Size.Height = 62.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 11
+      object TimeoutBackgroundRect: TRectangle
+        Align = Contents
+        Fill.Color = xFFE57C72
+        Locked = True
+        Opacity = 0.500000000000000000
+        Size.Width = 356.000000000000000000
+        Size.Height = 62.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object TimeoutLabel: TLabel
+        Align = Client
+        StyledSettings = [Family]
+        Margins.Left = 20.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 256.000000000000000000
+        Size.Height = 52.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.FontColor = claWhite
+        Text = 'Screen Timeout'
+        TabOrder = 0
+      end
+      object TimeoutSwitch: TSwitch
+        Align = Right
+        IsChecked = True
+        Opacity = 0.699999988079071000
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 20.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 20.000000000000000000
+        Position.X = 281.000000000000000000
+        Position.Y = 20.000000000000000000
+        Size.Width = 70.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+      end
+    end
+    object ScreenLayout: TLayout
+      Align = Top
+      Position.Y = 460.000000000000000000
+      Size.Width = 356.000000000000000000
+      Size.Height = 62.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 10
+      object ScreenBackgroundRect: TRectangle
+        Align = Contents
+        Fill.Color = xFFE57C72
+        Locked = True
+        Opacity = 0.500000000000000000
+        Size.Width = 356.000000000000000000
+        Size.Height = 62.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object ScreenLabel: TLabel
+        Align = Client
+        StyledSettings = [Family]
+        Margins.Left = 20.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 256.000000000000000000
+        Size.Height = 52.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.FontColor = claWhite
+        Text = 'Screen Saver'
+        TabOrder = 0
+      end
+      object ScreenSwitch: TSwitch
+        Align = Right
+        IsChecked = False
+        Opacity = 0.699999988079071000
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 20.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 20.000000000000000000
+        Position.X = 281.000000000000000000
+        Position.Y = 20.000000000000000000
+        Size.Width = 70.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+      end
+    end
+    object StatusLayout: TLayout
+      Align = Top
+      Position.Y = 398.000000000000000000
+      Size.Width = 356.000000000000000000
+      Size.Height = 62.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 9
+      object StatusBackgroundRect: TRectangle
+        Align = Contents
+        Fill.Color = xFFE57C72
+        Locked = True
+        Opacity = 0.500000000000000000
+        Size.Width = 356.000000000000000000
+        Size.Height = 62.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object StatusLabel: TLabel
+        Align = Client
+        StyledSettings = [Family]
+        Margins.Left = 20.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 310.000000000000000000
+        Size.Height = 52.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.FontColor = claWhite
+        Text = 'Status Bar'
+        TabOrder = 0
+      end
+      object StatusBarCheckBox: TCheckBox
+        Align = Right
+        IsChecked = True
+        Position.X = 330.000000000000000000
+        Size.Width = 26.000000000000000000
+        Size.Height = 62.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+      end
+    end
+    object PowerLayout: TLayout
+      Align = Top
+      Position.Y = 634.000000000000000000
+      Size.Width = 356.000000000000000000
+      Size.Height = 62.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 8
+      object PowerBackgroundRect: TRectangle
+        Align = Contents
+        Fill.Color = xFFE57C72
+        Locked = True
+        Opacity = 0.500000000000000000
+        Size.Width = 356.000000000000000000
+        Size.Height = 62.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object PowerSaveLabel: TLabel
+        Align = Client
+        StyledSettings = [Family]
+        Margins.Left = 20.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 108.000000000000000000
+        Size.Height = 52.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.FontColor = claWhite
+        Text = 'Power Save'
+        TabOrder = 1
+      end
+      object RadioGroupGridPanelLayout: TGridPanelLayout
+        Align = Right
+        Margins.Right = 5.000000000000000000
+        Position.X = 128.000000000000000000
+        Size.Width = 223.000000000000000000
+        Size.Height = 62.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        ColumnCollection = <
+          item
+            Value = 14.285714285714280000
+          end
+          item
+            Value = 28.571428571428570000
+          end
+          item
+            Value = 14.285714285714280000
+          end
+          item
+            Value = 28.571428571428570000
+          end
+          item
+            Value = 14.285714285714280000
+          end>
+        ControlCollection = <
+          item
+            Column = 0
+            Control = RGNoneLayout
+            Row = 0
+          end
+          item
+            Column = 1
+            Control = RGLine1Layout
+            Row = 0
+          end
+          item
+            Column = 2
+            Control = RGLowLayout
+            Row = 0
+          end
+          item
+            Column = 3
+            Control = RGLine2Layout
+            Row = 0
+          end
+          item
+            Column = 4
+            Control = RGMediumLayout
+            Row = 0
+          end>
+        RowCollection = <
+          item
+            Value = 100.000000000000000000
+          end
+          item
+            SizeStyle = Auto
+          end>
+        object RGNoneLayout: TLayout
+          Align = Client
+          Size.Width = 31.857143402099610000
+          Size.Height = 62.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object LowLabel: TLabel
+            Align = Bottom
+            StyledSettings = [Family, Style]
+            Position.Y = 37.000000000000000000
+            Size.Width = 31.857143402099610000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 8.000000000000000000
+            TextSettings.FontColor = claWhite
+            TextSettings.HorzAlign = Center
+            Text = 'Low'
+            TabOrder = 2
+          end
+          object RadioButton1: TRadioButton
+            Align = Center
+            GroupName = 'PowerSaveRadioGroup'
+            Margins.Left = 5.000000000000000000
+            Size.Width = 20.000000000000000000
+            Size.Height = 37.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 3
+          end
+        end
+        object RGLine1Layout: TLayout
+          Align = Client
+          Size.Width = 63.714282989501950000
+          Size.Height = 62.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          object RGLine1: TLine
+            Align = Contents
+            LineType = Top
+            Margins.Left = 2.000000000000000000
+            Margins.Top = 17.000000000000000000
+            Margins.Right = 4.000000000000000000
+            Margins.Bottom = 10.000000000000000000
+            Size.Width = 57.714282989501950000
+            Size.Height = 35.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Color = claWhite
+            Stroke.Thickness = 3.000000000000000000
+          end
+        end
+        object RGLowLayout: TLayout
+          Align = Client
+          Size.Width = 31.857147216796880000
+          Size.Height = 62.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          object MediumLabel: TLabel
+            Align = Bottom
+            StyledSettings = [Family, Style]
+            Position.Y = 37.000000000000000000
+            Size.Width = 31.857147216796880000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 8.000000000000000000
+            TextSettings.FontColor = claWhite
+            TextSettings.HorzAlign = Center
+            Text = 'Medium'
+            TabOrder = 2
+          end
+          object RadioButton2: TRadioButton
+            Align = Center
+            GroupName = 'PowerSaveRadioGroup'
+            IsChecked = True
+            Margins.Left = 5.000000000000000000
+            Size.Width = 20.000000000000000000
+            Size.Height = 37.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 3
+          end
+        end
+        object RGLine2Layout: TLayout
+          Align = Client
+          Size.Width = 63.714279174804690000
+          Size.Height = 62.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 3
+          object RGLine2: TLine
+            Align = Contents
+            LineType = Top
+            Margins.Left = 2.000000000000000000
+            Margins.Top = 17.000000000000000000
+            Margins.Right = 4.000000000000000000
+            Margins.Bottom = 10.000000000000000000
+            Size.Width = 57.714279174804690000
+            Size.Height = 35.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Color = claWhite
+            Stroke.Thickness = 3.000000000000000000
+          end
+        end
+        object RGMediumLayout: TLayout
+          Align = Client
+          Size.Width = 31.857147216796880000
+          Size.Height = 62.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 4
+          object HighLabel: TLabel
+            Align = Bottom
+            StyledSettings = [Family, Style]
+            Position.Y = 40.000000000000000000
+            Size.Width = 31.857147216796880000
+            Size.Height = 22.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 8.000000000000000000
+            TextSettings.FontColor = claWhite
+            TextSettings.HorzAlign = Center
+            Text = 'High'
+            TabOrder = 1
+          end
+          object RadioButton3: TRadioButton
+            Align = Center
+            GroupName = 'PowerSaveRadioGroup'
+            Margins.Left = 5.000000000000000000
+            Size.Width = 20.000000000000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 3
+          end
+        end
+      end
+    end
+  end
+end

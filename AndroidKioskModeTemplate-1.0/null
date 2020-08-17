@@ -1,0 +1,42 @@
+Src\.gitattributes
+Src\.gitignore
+Src\LICENSE.txt
+Src\README.md
+Src\commands\DeleteApp.bat
+Src\commands\install.bat
+Src\commands\SetOwner.bat
+Src\docs\Accounts.jpg
+Src\docs\dashboard.jpg
+Src\docs\exit exception.png
+Src\docs\exit password.jpg
+Src\docs\Kiosk Mode Instruction.docx
+Src\docs\KioskModeTemplate.mp4
+Src\docs\not administrator.png
+Src\Source\!DO NOT REMOVE AndroidManifest.template.txt
+Src\Source\AndroidManifest.template.xml
+Src\Source\ExitDialogFrame.fmx
+Src\Source\ExitDialogFrame.pas
+Src\Source\Kiosk.deployproj
+Src\Source\Kiosk.dpr
+Src\Source\Kiosk.dproj
+Src\Source\Kiosk.res
+Src\Source\KioskApplication.pas
+Src\Source\MainForm.fmx
+Src\Source\MainForm.pas
+Src\Source\jar\AdminReceiver_classes.jar
+Src\Source\java\build.bat
+Src\Source\java\buildAdmin.bat
+Src\Source\java\buildDeviceAdmin.bat
+Src\Source\java\output\classes\com\kiosk\admin\AdminReceiver.class
+Src\Source\java\output\classes\com\kiosk\app\AdminReceiver.class
+Src\Source\java\output\classes\com\kiosk\app\BootReceiver.class
+Src\Source\java\output\jar\AdminReceiver_classes.jar
+Src\Source\java\src\com\kiosk\admin\AdminReceiver.java
+Src\Source\java\src\com\kiosk\app\BootReceiver.java
+Src\Source\java\xml\device_owner_receiver.xml
+Src\Source\source\android.app.ActivityManager.pas
+Src\Source\source\android.app.admin.DevicePolicyManager.pas
+Src\Source\source\android.content.ComponentName.pas
+Src\Source\source\android.os.UserManager.pas
+Src\Source\xml\device_owner_receiver.xml
+41 arquivo(s) copiado(s)

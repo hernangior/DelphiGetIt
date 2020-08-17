@@ -1,0 +1,73 @@
+object frmMenu: TfrmMenu
+  Left = 0
+  Top = 0
+  Caption = 'frmMenu'
+  ClientHeight = 703
+  ClientWidth = 393
+  Position = MainFormCenter
+  StyleBook = frmMain.StyleBook1
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object LayoutContent: TLayout
+    Align = Client
+    Size.Width = 393.000000000000000000
+    Size.Height = 703.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object lbMenu: TListBox
+      Align = Client
+      Size.Width = 393.000000000000000000
+      Size.Height = 648.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'ListboxWhiteNoSelStyle'
+      TabOrder = 0
+      DisableFocusEffect = True
+      DefaultItemStyles.ItemStyle = ''
+      DefaultItemStyles.GroupHeaderStyle = ''
+      DefaultItemStyles.GroupFooterStyle = ''
+      Viewport.Width = 393.000000000000000000
+      Viewport.Height = 648.000000000000000000
+      object ListBoxItem1: TListBoxItem
+        Size.Width = 389.000000000000000000
+        Size.Height = 130.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'ListboxItemMenuImgStyle'
+        TabOrder = 0
+        Text = 'ListBoxItem1'
+      end
+      object ListBoxItem2: TListBoxItem
+        Position.Y = 130.000000000000000000
+        Size.Width = 389.000000000000000000
+        Size.Height = 130.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'ListboxItemMenuImgStyle'
+        TabOrder = 1
+        Text = 'ListBoxItem2'
+      end
+    end
+    object LayoutCheckOut: TLayout
+      Align = Bottom
+      Position.Y = 648.000000000000000000
+      Size.Width = 393.000000000000000000
+      Size.Height = 55.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 19
+      object btnCheckOut: TButton
+        Align = Client
+        Margins.Left = 20.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Size.Width = 353.000000000000000000
+        Size.Height = 35.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'ButtonGetStartedStyle'
+        TabOrder = 0
+        Text = 'Check-out'
+      end
+    end
+  end
+end

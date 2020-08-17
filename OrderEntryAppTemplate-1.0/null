@@ -1,0 +1,901 @@
+Src\db\oe_template.db
+Src\Documents\Order Entry App.pptx
+Src\Images\access_time-white-24dp\1x\baseline_access_time_white_24dp.png
+Src\Images\access_time-white-24dp\2x\baseline_access_time_white_24dp.png
+Src\Images\access_time-white-48dp\1x\baseline_access_time_white_48dp.png
+Src\Images\access_time-white-48dp\2x\baseline_access_time_white_48dp.png
+Src\Images\arrow_drop_down-white-24dp\1x\baseline_arrow_drop_down_white_24dp.png
+Src\Images\arrow_drop_down-white-24dp\2x\baseline_arrow_drop_down_white_24dp.png
+Src\Images\arrow_drop_up-white-24dp\1x\baseline_arrow_drop_up_white_24dp.png
+Src\Images\arrow_drop_up-white-24dp\2x\baseline_arrow_drop_up_white_24dp.png
+Src\Images\arrow_right-white-36dp\1x\baseline_arrow_right_white_36dp.png
+Src\Images\arrow_right-white-36dp\2x\baseline_arrow_right_white_36dp.png
+Src\Images\backgrounds\mainback.jpg
+Src\Images\backgrounds\mainback2.jpg
+Src\Images\backspace-black-48dp\1x\baseline_backspace_black_48dp.png
+Src\Images\backspace-black-48dp\2x\baseline_backspace_black_48dp.png
+Src\Images\baseline-restaurant-white-36\1x\baseline_restaurant_white_36dp.png
+Src\Images\baseline-restaurant-white-36\2x\baseline_restaurant_white_36dp.png
+Src\Images\build-white-48dp\1x\baseline_build_white_48dp.png
+Src\Images\build-white-48dp\2x\baseline_build_white_48dp.png
+Src\Images\cancel_button_100dp\icons8-ios-100.png
+Src\Images\check_circle_outline-white-36dp\1x\baseline_check_circle_outline_white_36dp.png
+Src\Images\check_circle_outline-white-36dp\2x\baseline_check_circle_outline_white_36dp.png
+Src\Images\check_circle_outline-white-48dp\1x\baseline_check_circle_outline_white_48dp.png
+Src\Images\check_circle_outline-white-48dp\2x\baseline_check_circle_outline_white_48dp.png
+Src\Images\clear-white-24dp\1x\baseline_clear_white_24dp.png
+Src\Images\clear-white-24dp\2x\baseline_clear_white_24dp.png
+Src\Images\clock_button_100px\icons8-clock-100.png
+Src\Images\create-white-48dp\1x\baseline_create_white_48dp.png
+Src\Images\create-white-48dp\2x\baseline_create_white_48dp.png
+Src\Images\dehaze-white-48dp\1x\baseline_dehaze_white_48dp.png
+Src\Images\dehaze-white-48dp\2x\baseline_dehaze_white_48dp.png
+Src\Images\equalizer-white-48dp\1x\baseline_equalizer_white_48dp.png
+Src\Images\equalizer-white-48dp\2x\baseline_equalizer_white_48dp.png
+Src\Images\FMX Icons\48\angle-down.png
+Src\Images\FMX Icons\48\angle-left.png
+Src\Images\FMX Icons\48\angle-right.png
+Src\Images\FMX Icons\48\angle-up.png
+Src\Images\FMX Icons\48\area-chart.png
+Src\Images\FMX Icons\48\bar-chart.png
+Src\Images\FMX Icons\48\barcode.png
+Src\Images\FMX Icons\48\bars.png
+Src\Images\FMX Icons\48\calendar-check-o.png
+Src\Images\FMX Icons\48\calendar.png
+Src\Images\FMX Icons\48\check-circle-o.png
+Src\Images\FMX Icons\48\check-square-o.png
+Src\Images\FMX Icons\48\check.png
+Src\Images\FMX Icons\48\credit-card-alt.png
+Src\Images\FMX Icons\48\cut.png
+Src\Images\FMX Icons\48\dollar.png
+Src\Images\FMX Icons\48\ellipsis-h.png
+Src\Images\FMX Icons\48\expand.png
+Src\Images\FMX Icons\48\external-link.png
+Src\Images\FMX Icons\48\file-text-o.png
+Src\Images\FMX Icons\48\gear.png
+Src\Images\FMX Icons\48\gears.png
+Src\Images\FMX Icons\48\gift.png
+Src\Images\FMX Icons\48\history.png
+Src\Images\FMX Icons\48\home.png
+Src\Images\FMX Icons\48\incident-icon.png
+Src\Images\FMX Icons\48\laptop.png
+Src\Images\FMX Icons\48\list-alt.png
+Src\Images\FMX Icons\48\list.png
+Src\Images\FMX Icons\48\map-pin.png
+Src\Images\FMX Icons\48\pencil.png
+Src\Images\FMX Icons\48\phone.png
+Src\Images\FMX Icons\48\plus-square-o.png
+Src\Images\FMX Icons\48\plus.png
+Src\Images\FMX Icons\48\POS Printer.png
+Src\Images\FMX Icons\48\POS_Icons-01.png
+Src\Images\FMX Icons\48\POS_Icons-02.png
+Src\Images\FMX Icons\48\POS_Icons-03.png
+Src\Images\FMX Icons\48\POS_Icons-04.png
+Src\Images\FMX Icons\48\POS_Icons-05.png
+Src\Images\FMX Icons\48\POS_Icons-06.png
+Src\Images\FMX Icons\48\POS_Icons-11.png
+Src\Images\FMX Icons\48\POS_Icons-12.png
+Src\Images\FMX Icons\48\POS_Icons-13.png
+Src\Images\FMX Icons\48\POS_Icons-14.png
+Src\Images\FMX Icons\48\POS_Menu_Combine.png
+Src\Images\FMX Icons\48\POS_Menu_FixedDol.png
+Src\Images\FMX Icons\48\POS_Menu_Icons-01.png
+Src\Images\FMX Icons\48\POS_Menu_Icons-02.png
+Src\Images\FMX Icons\48\POS_Menu_Icons-03.png
+Src\Images\FMX Icons\48\POS_Menu_Icons-04.png
+Src\Images\FMX Icons\48\POS_Menu_Icons-05.png
+Src\Images\FMX Icons\48\POS_Menu_Icons-06.png
+Src\Images\FMX Icons\48\POS_Menu_Icons-07.png
+Src\Images\FMX Icons\48\POS_Menu_Icons-08.png
+Src\Images\FMX Icons\48\POS_Menu_Icons-09.png
+Src\Images\FMX Icons\48\POS_Menu_Icons-11.png
+Src\Images\FMX Icons\48\POS_Menu_Icons-12.png
+Src\Images\FMX Icons\48\POS_Menu_Tabs.png
+Src\Images\FMX Icons\48\POS_Menu_Variable.png
+Src\Images\FMX Icons\48\POS_Tab_Icons-01.png
+Src\Images\FMX Icons\48\POS_Tab_Icons-04.png
+Src\Images\FMX Icons\48\print.png
+Src\Images\FMX Icons\48\sales-report-icon.png
+Src\Images\FMX Icons\48\search.png
+Src\Images\FMX Icons\48\sliders.png
+Src\Images\FMX Icons\48\star.png
+Src\Images\FMX Icons\48\tablet.png
+Src\Images\FMX Icons\48\user.png
+Src\Images\FMX Icons\48\users.png
+Src\Images\FMX Icons\48\vcard-o.png
+Src\Images\FMX Icons\64\angle-down.png
+Src\Images\FMX Icons\64\angle-left.png
+Src\Images\FMX Icons\64\angle-right.png
+Src\Images\FMX Icons\64\angle-up.png
+Src\Images\FMX Icons\64\area-chart.png
+Src\Images\FMX Icons\64\bar-chart.png
+Src\Images\FMX Icons\64\barcode.png
+Src\Images\FMX Icons\64\bars.png
+Src\Images\FMX Icons\64\calendar-check-o.png
+Src\Images\FMX Icons\64\calendar.png
+Src\Images\FMX Icons\64\check-circle-o.png
+Src\Images\FMX Icons\64\check-square-o.png
+Src\Images\FMX Icons\64\check.png
+Src\Images\FMX Icons\64\credit-card-alt.png
+Src\Images\FMX Icons\64\cut.png
+Src\Images\FMX Icons\64\dollar.png
+Src\Images\FMX Icons\64\ellipsis-h.png
+Src\Images\FMX Icons\64\expand.png
+Src\Images\FMX Icons\64\external-link.png
+Src\Images\FMX Icons\64\file-text-o.png
+Src\Images\FMX Icons\64\gear.png
+Src\Images\FMX Icons\64\gears.png
+Src\Images\FMX Icons\64\gift.png
+Src\Images\FMX Icons\64\history.png
+Src\Images\FMX Icons\64\home.png
+Src\Images\FMX Icons\64\incident-icon.png
+Src\Images\FMX Icons\64\laptop.png
+Src\Images\FMX Icons\64\list-alt.png
+Src\Images\FMX Icons\64\list.png
+Src\Images\FMX Icons\64\map-pin.png
+Src\Images\FMX Icons\64\pencil.png
+Src\Images\FMX Icons\64\phone.png
+Src\Images\FMX Icons\64\plus-square-o.png
+Src\Images\FMX Icons\64\plus.png
+Src\Images\FMX Icons\64\POS Printer.png
+Src\Images\FMX Icons\64\POS_Icons-01.png
+Src\Images\FMX Icons\64\POS_Icons-02.png
+Src\Images\FMX Icons\64\POS_Icons-03.png
+Src\Images\FMX Icons\64\POS_Icons-04.png
+Src\Images\FMX Icons\64\POS_Icons-05.png
+Src\Images\FMX Icons\64\POS_Icons-06.png
+Src\Images\FMX Icons\64\POS_Icons-07.png
+Src\Images\FMX Icons\64\POS_Icons-11.png
+Src\Images\FMX Icons\64\POS_Icons-12.png
+Src\Images\FMX Icons\64\POS_Icons-13.png
+Src\Images\FMX Icons\64\POS_Icons-14.png
+Src\Images\FMX Icons\64\POS_Menu_Combine.png
+Src\Images\FMX Icons\64\POS_Menu_FixedDol64.png
+Src\Images\FMX Icons\64\POS_Menu_Icons-01.png
+Src\Images\FMX Icons\64\POS_Menu_Icons-02.png
+Src\Images\FMX Icons\64\POS_Menu_Icons-03.png
+Src\Images\FMX Icons\64\POS_Menu_Icons-04.png
+Src\Images\FMX Icons\64\POS_Menu_Icons-05.png
+Src\Images\FMX Icons\64\POS_Menu_Icons-06.png
+Src\Images\FMX Icons\64\POS_Menu_Icons-07.png
+Src\Images\FMX Icons\64\POS_Menu_Icons-08.png
+Src\Images\FMX Icons\64\POS_Menu_Icons-09.png
+Src\Images\FMX Icons\64\POS_Menu_Icons-11.png
+Src\Images\FMX Icons\64\POS_Menu_Icons-12.png
+Src\Images\FMX Icons\64\POS_Menu_Tabs.png
+Src\Images\FMX Icons\64\POS_Menu_Variable.png
+Src\Images\FMX Icons\64\POS_Tab_Icons-01.png
+Src\Images\FMX Icons\64\POS_Tab_Icons-04.png
+Src\Images\FMX Icons\64\print.png
+Src\Images\FMX Icons\64\sales-report-icon.png
+Src\Images\FMX Icons\64\search.png
+Src\Images\FMX Icons\64\sliders.png
+Src\Images\FMX Icons\64\star.png
+Src\Images\FMX Icons\64\tablet.png
+Src\Images\FMX Icons\64\user.png
+Src\Images\FMX Icons\64\users.png
+Src\Images\FMX Icons\64\vcard-o.png
+Src\Images\FMX Icons\96\bars.png
+Src\Images\FMX Icons\96\tablet.png
+Src\Images\FMX Icons\97-128\angle-down.png
+Src\Images\FMX Icons\97-128\angle-left.png
+Src\Images\FMX Icons\97-128\angle-right.png
+Src\Images\FMX Icons\97-128\angle-up.png
+Src\Images\FMX Icons\97-128\area-chart.png
+Src\Images\FMX Icons\97-128\bar-chart.png
+Src\Images\FMX Icons\97-128\barcode.png
+Src\Images\FMX Icons\97-128\bars.png
+Src\Images\FMX Icons\97-128\calendar-check-o.png
+Src\Images\FMX Icons\97-128\calendar.png
+Src\Images\FMX Icons\97-128\check-circle-o.png
+Src\Images\FMX Icons\97-128\check-square-o.png
+Src\Images\FMX Icons\97-128\check.png
+Src\Images\FMX Icons\97-128\credit-card-alt.png
+Src\Images\FMX Icons\97-128\cut.png
+Src\Images\FMX Icons\97-128\dollar.png
+Src\Images\FMX Icons\97-128\ellipsis-h.png
+Src\Images\FMX Icons\97-128\expand.png
+Src\Images\FMX Icons\97-128\external-link.png
+Src\Images\FMX Icons\97-128\file-text-o.png
+Src\Images\FMX Icons\97-128\gear.png
+Src\Images\FMX Icons\97-128\gears.png
+Src\Images\FMX Icons\97-128\gift.png
+Src\Images\FMX Icons\97-128\history.png
+Src\Images\FMX Icons\97-128\home.png
+Src\Images\FMX Icons\97-128\incident-icon.png
+Src\Images\FMX Icons\97-128\laptop.png
+Src\Images\FMX Icons\97-128\list-alt.png
+Src\Images\FMX Icons\97-128\list.png
+Src\Images\FMX Icons\97-128\map-pin.png
+Src\Images\FMX Icons\97-128\pencil.png
+Src\Images\FMX Icons\97-128\phone.png
+Src\Images\FMX Icons\97-128\plus-square-o.png
+Src\Images\FMX Icons\97-128\plus.png
+Src\Images\FMX Icons\97-128\POS Printer.png
+Src\Images\FMX Icons\97-128\POS_Icons-01.png
+Src\Images\FMX Icons\97-128\POS_Icons-02.png
+Src\Images\FMX Icons\97-128\POS_Icons-03.png
+Src\Images\FMX Icons\97-128\POS_Icons-04.png
+Src\Images\FMX Icons\97-128\POS_Icons-05.png
+Src\Images\FMX Icons\97-128\POS_Icons-06.png
+Src\Images\FMX Icons\97-128\POS_Icons-07.png
+Src\Images\FMX Icons\97-128\POS_Icons-11.png
+Src\Images\FMX Icons\97-128\POS_Icons-12.png
+Src\Images\FMX Icons\97-128\POS_Icons-13.png
+Src\Images\FMX Icons\97-128\POS_Icons-14.png
+Src\Images\FMX Icons\97-128\POS_Menu_Combine.png
+Src\Images\FMX Icons\97-128\POS_Menu_FixedDol128.png
+Src\Images\FMX Icons\97-128\POS_Menu_Icons-01.png
+Src\Images\FMX Icons\97-128\POS_Menu_Icons-02.png
+Src\Images\FMX Icons\97-128\POS_Menu_Icons-03.png
+Src\Images\FMX Icons\97-128\POS_Menu_Icons-04.png
+Src\Images\FMX Icons\97-128\POS_Menu_Icons-05.png
+Src\Images\FMX Icons\97-128\POS_Menu_Icons-06.png
+Src\Images\FMX Icons\97-128\POS_Menu_Icons-07.png
+Src\Images\FMX Icons\97-128\POS_Menu_Icons-08.png
+Src\Images\FMX Icons\97-128\POS_Menu_Icons-09.png
+Src\Images\FMX Icons\97-128\POS_Menu_Icons-11.png
+Src\Images\FMX Icons\97-128\POS_Menu_Icons-12.png
+Src\Images\FMX Icons\97-128\POS_Menu_Tabs.png
+Src\Images\FMX Icons\97-128\POS_Menu_Variable.png
+Src\Images\FMX Icons\97-128\POS_Tab_Icons-01.png
+Src\Images\FMX Icons\97-128\POS_Tab_Icons-04.png
+Src\Images\FMX Icons\97-128\print.png
+Src\Images\FMX Icons\97-128\sales-report-icon.png
+Src\Images\FMX Icons\97-128\search.png
+Src\Images\FMX Icons\97-128\sliders.png
+Src\Images\FMX Icons\97-128\star.png
+Src\Images\FMX Icons\97-128\tablet.png
+Src\Images\FMX Icons\97-128\user.png
+Src\Images\FMX Icons\97-128\users.png
+Src\Images\FMX Icons\97-128\vcard-o.png
+Src\Images\FMX Icons\Bar Icons\POS_Bar_Icons_Berverage.png
+Src\Images\FMX Icons\Bar Icons\POS_Bar_Icons_Bread.png
+Src\Images\FMX Icons\Bar Icons\POS_Bar_Icons_Cheese.png
+Src\Images\FMX Icons\Bar Icons\POS_Bar_Icons_Chicken.png
+Src\Images\FMX Icons\Bar Icons\POS_Bar_Icons_Cocktails.png
+Src\Images\FMX Icons\Bar Icons\POS_Bar_Icons_Coffee.png
+Src\Images\FMX Icons\Bar Icons\POS_Bar_Icons_Dessert.png
+Src\Images\FMX Icons\Bar Icons\POS_Bar_Icons_Donut.png
+Src\Images\FMX Icons\Bar Icons\POS_Bar_Icons_Draught Beer.png
+Src\Images\FMX Icons\Bar Icons\POS_Bar_Icons_Fries.png
+Src\Images\FMX Icons\Bar Icons\POS_Bar_Icons_Hamburger.png
+Src\Images\FMX Icons\Bar Icons\POS_Bar_Icons_Ice Tea.png
+Src\Images\FMX Icons\Bar Icons\POS_Bar_Icons_Juice.png
+Src\Images\FMX Icons\Bar Icons\POS_Bar_Icons_Liquor.png
+Src\Images\FMX Icons\Bar Icons\POS_Bar_Icons_Marlboro.png
+Src\Images\FMX Icons\Bar Icons\POS_Bar_Icons_Martinits.png
+Src\Images\FMX Icons\Bar Icons\POS_Bar_Icons_Milk.png
+Src\Images\FMX Icons\Bar Icons\POS_Bar_Icons_Pasta-Noodle.png
+Src\Images\FMX Icons\Bar Icons\POS_Bar_Icons_Pizza.png
+Src\Images\FMX Icons\Bar Icons\POS_Bar_Icons_Salads.png
+Src\Images\FMX Icons\Bar Icons\POS_Bar_Icons_Sandwich.png
+Src\Images\FMX Icons\Bar Icons\POS_Bar_Icons_Sausage.png
+Src\Images\FMX Icons\Bar Icons\POS_Bar_Icons_Seafood.png
+Src\Images\FMX Icons\Bar Icons\POS_Bar_Icons_shots.png
+Src\Images\FMX Icons\Bar Icons\POS_Bar_Icons_Steak.png
+Src\Images\FMX Icons\Bar Icons\POS_Bar_Icons_Taco.png
+Src\Images\FMX Icons\Bar Icons\POS_Bar_Icons_Tea.png
+Src\Images\FMX Icons\Bar Icons\POS_Bar_Icons_Teriyaki.png
+Src\Images\FMX Icons\Bar Icons\POS_Bar_Icons_Water.png
+Src\Images\FMX Icons\Bar Icons\POS_Bar_Icons_Wine - bottle.png
+Src\Images\FMX Icons\Bar Icons\POS_Bar_Icons_Wine - glass.png
+Src\Images\FMX Icons\Black\128\check-square-o.png
+Src\Images\FMX Icons\Black\128\credit-card-alt.png
+Src\Images\FMX Icons\Black\128\gift+card.png
+Src\Images\FMX Icons\Black\128\POS_Icons-02.png
+Src\Images\FMX Icons\Black\128\POS_Menu_Icons-12.png
+Src\Images\FMX Icons\Black\128\userhome.png
+Src\Images\FMX Icons\Black\64\check-square-o.png
+Src\Images\FMX Icons\Black\64\credit-card-alt.png
+Src\Images\FMX Icons\Black\64\giftcard.png
+Src\Images\FMX Icons\Black\64\POS_Icons-02.png
+Src\Images\FMX Icons\Black\64\POS_Menu_Icons-12.png
+Src\Images\FMX Icons\Black\64\userhome.png
+Src\Images\FMX Icons\butticns\IL97.zip
+Src\Images\FMX Icons\butticns\pointOS white.png
+Src\Images\FMX Icons\butticns\pointOS.png
+Src\Images\FMX Icons\butticns\IL110\TabsScreen\l_circle.png
+Src\Images\FMX Icons\butticns\IL110\TabsScreen\l_horz_oval.png
+Src\Images\FMX Icons\butticns\IL110\TabsScreen\l_horz_rect.png
+Src\Images\FMX Icons\butticns\IL110\TabsScreen\l_square.png
+Src\Images\FMX Icons\butticns\IL110\TabsScreen\l_vert_oval.png
+Src\Images\FMX Icons\butticns\IL110\TabsScreen\l_vert_rect.png
+Src\Images\FMX Icons\butticns\IL110\TabsScreen\m_circle.png
+Src\Images\FMX Icons\butticns\IL110\TabsScreen\m_horz_oval.png
+Src\Images\FMX Icons\butticns\IL110\TabsScreen\m_horz_rect.png
+Src\Images\FMX Icons\butticns\IL110\TabsScreen\m_square.png
+Src\Images\FMX Icons\butticns\IL110\TabsScreen\m_vert_oval.png
+Src\Images\FMX Icons\butticns\IL110\TabsScreen\m_vert_rect.png
+Src\Images\FMX Icons\butticns\IL110\TabsScreen\s_circle.png
+Src\Images\FMX Icons\butticns\IL110\TabsScreen\s_horz_oval.png
+Src\Images\FMX Icons\butticns\IL110\TabsScreen\s_horz_rect.png
+Src\Images\FMX Icons\butticns\IL110\TabsScreen\s_square.png
+Src\Images\FMX Icons\butticns\IL110\TabsScreen\s_vert_oval.png
+Src\Images\FMX Icons\butticns\IL110\TabsScreen\s_vert_rect.png
+Src\Images\FMX Icons\butticns\IL110\TabsScreen\Yellow\l_circle.png
+Src\Images\FMX Icons\butticns\IL110\TabsScreen\Yellow\l_horz_oval.png
+Src\Images\FMX Icons\butticns\IL110\TabsScreen\Yellow\l_horz_rect.png
+Src\Images\FMX Icons\butticns\IL110\TabsScreen\Yellow\l_square.png
+Src\Images\FMX Icons\butticns\IL110\TabsScreen\Yellow\l_vert_oval.png
+Src\Images\FMX Icons\butticns\IL110\TabsScreen\Yellow\l_vert_rect.png
+Src\Images\FMX Icons\butticns\IL110\TabsScreen\Yellow\m_circle.png
+Src\Images\FMX Icons\butticns\IL110\TabsScreen\Yellow\m_horz_oval.png
+Src\Images\FMX Icons\butticns\IL110\TabsScreen\Yellow\m_horz_rect.png
+Src\Images\FMX Icons\butticns\IL110\TabsScreen\Yellow\m_square.png
+Src\Images\FMX Icons\butticns\IL110\TabsScreen\Yellow\m_vert_oval.png
+Src\Images\FMX Icons\butticns\IL110\TabsScreen\Yellow\m_vert_rect.png
+Src\Images\FMX Icons\butticns\IL110\TabsScreen\Yellow\s_circle.png
+Src\Images\FMX Icons\butticns\IL110\TabsScreen\Yellow\s_horz_oval.png
+Src\Images\FMX Icons\butticns\IL110\TabsScreen\Yellow\s_horz_rect.png
+Src\Images\FMX Icons\butticns\IL110\TabsScreen\Yellow\s_square.png
+Src\Images\FMX Icons\butticns\IL110\TabsScreen\Yellow\s_vert_oval.png
+Src\Images\FMX Icons\butticns\IL110\TabsScreen\Yellow\s_vert_rect.png
+Src\Images\FMX Icons\butticns\IL135\TabsScreen\l_circle-(135x135).png
+Src\Images\FMX Icons\butticns\IL135\TabsScreen\l_horz_oval_(135x135).png
+Src\Images\FMX Icons\butticns\IL135\TabsScreen\l_horz_rect_(135x135).png
+Src\Images\FMX Icons\butticns\IL135\TabsScreen\l_square_(135x135).png
+Src\Images\FMX Icons\butticns\IL135\TabsScreen\l_vert_oval_(135x135).png
+Src\Images\FMX Icons\butticns\IL135\TabsScreen\l_vert_rect_(135x135).png
+Src\Images\FMX Icons\butticns\IL135\TabsScreen\m_circle_(135x135).png
+Src\Images\FMX Icons\butticns\IL135\TabsScreen\m_horz_oval_(135x135).png
+Src\Images\FMX Icons\butticns\IL135\TabsScreen\m_horz_rect_(135x135).png
+Src\Images\FMX Icons\butticns\IL135\TabsScreen\m_square_(135x135).png
+Src\Images\FMX Icons\butticns\IL135\TabsScreen\m_vert_oval_(135x135).png
+Src\Images\FMX Icons\butticns\IL135\TabsScreen\m_vert_rect_(135x135).png
+Src\Images\FMX Icons\butticns\IL135\TabsScreen\s_circle_(135x135).png
+Src\Images\FMX Icons\butticns\IL135\TabsScreen\s_horz_oval_(135x135).png
+Src\Images\FMX Icons\butticns\IL135\TabsScreen\s_horz_rect_(135x135).png
+Src\Images\FMX Icons\butticns\IL135\TabsScreen\s_square_(135x135).png
+Src\Images\FMX Icons\butticns\IL135\TabsScreen\s_vert_oval_(135x135).png
+Src\Images\FMX Icons\butticns\IL135\TabsScreen\s_vert_rect_(135x135).png
+Src\Images\FMX Icons\butticns\IL135\TabsScreen\Yellow\l_circle_(135x135).png
+Src\Images\FMX Icons\butticns\IL135\TabsScreen\Yellow\l_horz_oval_(135x135).png
+Src\Images\FMX Icons\butticns\IL135\TabsScreen\Yellow\l_horz_rect_(135x135).png
+Src\Images\FMX Icons\butticns\IL135\TabsScreen\Yellow\l_square_(135x135).png
+Src\Images\FMX Icons\butticns\IL135\TabsScreen\Yellow\l_vert_oval_(135x135).png
+Src\Images\FMX Icons\butticns\IL135\TabsScreen\Yellow\l_vert_rect_(135x135).png
+Src\Images\FMX Icons\butticns\IL135\TabsScreen\Yellow\m_circle_(135x135).png
+Src\Images\FMX Icons\butticns\IL135\TabsScreen\Yellow\m_horz_oval_(135x135).png
+Src\Images\FMX Icons\butticns\IL135\TabsScreen\Yellow\m_horz_rect_(135x135).png
+Src\Images\FMX Icons\butticns\IL135\TabsScreen\Yellow\m_square_(135x135).png
+Src\Images\FMX Icons\butticns\IL135\TabsScreen\Yellow\m_vert_oval_(135x135).png
+Src\Images\FMX Icons\butticns\IL135\TabsScreen\Yellow\m_vert_rect_(135x135).png
+Src\Images\FMX Icons\butticns\IL135\TabsScreen\Yellow\s_circle_(135x135).png
+Src\Images\FMX Icons\butticns\IL135\TabsScreen\Yellow\s_horz_oval_(135x135).png
+Src\Images\FMX Icons\butticns\IL135\TabsScreen\Yellow\s_horz_rect_(135x135).png
+Src\Images\FMX Icons\butticns\IL135\TabsScreen\Yellow\s_square_(135x135).png
+Src\Images\FMX Icons\butticns\IL135\TabsScreen\Yellow\s_vert_oval_(135x135).png
+Src\Images\FMX Icons\butticns\IL135\TabsScreen\Yellow\s_vert_rect_(135x135).png
+Src\Images\FMX Icons\butticns\IL15\credit terminal\keyboard.bmp
+Src\Images\FMX Icons\butticns\IL15\credit terminal\keyboard.png
+Src\Images\FMX Icons\butticns\IL15\tablemanform\left-w-15.png
+Src\Images\FMX Icons\butticns\IL15\tablemanform\left-white-15.png
+Src\Images\FMX Icons\butticns\IL15\tablemanform\leftG-15.png
+Src\Images\FMX Icons\butticns\IL15\tablemanform\right-gray-15.png
+Src\Images\FMX Icons\butticns\IL20\credit terminal\keyboard.bmp
+Src\Images\FMX Icons\butticns\IL20\credit terminal\keyboard.png
+Src\Images\FMX Icons\butticns\IL20\creport\20x20_down.png
+Src\Images\FMX Icons\butticns\IL20\creport\20x20_up.png
+Src\Images\FMX Icons\butticns\IL20\slash Form\keyboard.png
+Src\Images\FMX Icons\butticns\IL20\tablemanform\left-w-20.png
+Src\Images\FMX Icons\butticns\IL20\tablemanform\left-white-20.png
+Src\Images\FMX Icons\butticns\IL20\tablemanform\leftG-20.png
+Src\Images\FMX Icons\butticns\IL20\tablemanform\right-gray-20.png
+Src\Images\FMX Icons\butticns\IL25\credit terminal\keyboard.bmp
+Src\Images\FMX Icons\butticns\IL25\credit terminal\keyboard.png
+Src\Images\FMX Icons\butticns\IL25\splash Form\keyboard.png
+Src\Images\FMX Icons\butticns\IL30\credit terminal\americanExpress_30.png
+Src\Images\FMX Icons\butticns\IL30\credit terminal\americanExpress_30f.png
+Src\Images\FMX Icons\butticns\IL30\credit terminal\Discover_30.png
+Src\Images\FMX Icons\butticns\IL30\credit terminal\Discover_30f.png
+Src\Images\FMX Icons\butticns\IL30\credit terminal\MasterCard_30.png
+Src\Images\FMX Icons\butticns\IL30\credit terminal\MasterCard_30f.png
+Src\Images\FMX Icons\butticns\IL30\credit terminal\Visa_30.png
+Src\Images\FMX Icons\butticns\IL30\credit terminal\Visa_30f.png
+Src\Images\FMX Icons\butticns\IL30\PrinterHold\down_white_arrow30X30-.png
+Src\Images\FMX Icons\butticns\IL30\PrinterHold\up_white_arrow30X30.png
+Src\Images\FMX Icons\butticns\IL30\splititem\30x30_down.png
+Src\Images\FMX Icons\butticns\IL30\splititem\30x30_up.png
+Src\Images\FMX Icons\butticns\IL30\splititem\Down_arrow_gray.png
+Src\Images\FMX Icons\butticns\IL30\splititem\Up_arrow_gray.png
+Src\Images\FMX Icons\butticns\IL30\tablemanform\left-w-30.png
+Src\Images\FMX Icons\butticns\IL30\tablemanform\left-white-30.png
+Src\Images\FMX Icons\butticns\IL30\tablemanform\leftG-30.png
+Src\Images\FMX Icons\butticns\IL30\tablemanform\right-gray-30.png
+Src\Images\FMX Icons\butticns\IL40\creditterminal\americanExpress_40.png
+Src\Images\FMX Icons\butticns\IL40\creditterminal\americanExpress_40f.png
+Src\Images\FMX Icons\butticns\IL40\creditterminal\Discover_40.png
+Src\Images\FMX Icons\butticns\IL40\creditterminal\Discover_40f.png
+Src\Images\FMX Icons\butticns\IL40\creditterminal\MasterCard_40.png
+Src\Images\FMX Icons\butticns\IL40\creditterminal\MasterCard_40f.png
+Src\Images\FMX Icons\butticns\IL40\creditterminal\Visa_40.png
+Src\Images\FMX Icons\butticns\IL40\creditterminal\Visa_40f.png
+Src\Images\FMX Icons\butticns\IL40\Forcedmod\down40X40.png
+Src\Images\FMX Icons\butticns\IL40\Forcedmod\up40X40.png
+Src\Images\FMX Icons\butticns\IL40\gratuitity\Down_arrow.png
+Src\Images\FMX Icons\butticns\IL40\gratuitity\Up_arrow.png
+Src\Images\FMX Icons\butticns\IL40\PrinterHold\down_white_arrow40X40-.png
+Src\Images\FMX Icons\butticns\IL40\PrinterHold\left_white_arrow40X40.png
+Src\Images\FMX Icons\butticns\IL40\PrinterHold\right_white_arrow40X40.png
+Src\Images\FMX Icons\butticns\IL40\PrinterHold\up_white_arrow40X40.png
+Src\Images\FMX Icons\butticns\IL40\removepayments\Down_arrow.png
+Src\Images\FMX Icons\butticns\IL40\removepayments\Down_arrow_gray.png
+Src\Images\FMX Icons\butticns\IL40\removepayments\Up_arrow.png
+Src\Images\FMX Icons\butticns\IL40\removepayments\Up_arrow_gray.png
+Src\Images\FMX Icons\butticns\IL40\SeatManager\Down_arrow.png
+Src\Images\FMX Icons\butticns\IL40\SeatManager\Down_arrow_gray.png
+Src\Images\FMX Icons\butticns\IL40\SeatManager\Up_arrow.png
+Src\Images\FMX Icons\butticns\IL40\SeatManager\Up_arrow_gray.png
+Src\Images\FMX Icons\butticns\IL40\splititem\40x40_down.png
+Src\Images\FMX Icons\butticns\IL40\splititem\40x40_left.png
+Src\Images\FMX Icons\butticns\IL40\splititem\40x40_right.png
+Src\Images\FMX Icons\butticns\IL40\splititem\40x40_up.png
+Src\Images\FMX Icons\butticns\IL50\down50X50.png
+Src\Images\FMX Icons\butticns\IL50\down97X97.png
+Src\Images\FMX Icons\butticns\IL50\Down_arrow67X67.png
+Src\Images\FMX Icons\butticns\IL50\Down_black_arrow67X67.png
+Src\Images\FMX Icons\butticns\IL50\left50X50.png
+Src\Images\FMX Icons\butticns\IL50\left_arrow67X67.png
+Src\Images\FMX Icons\butticns\IL50\left_black_arrow67X67.png
+Src\Images\FMX Icons\butticns\IL50\Right50X50.png
+Src\Images\FMX Icons\butticns\IL50\right_arrow67X67.png
+Src\Images\FMX Icons\butticns\IL50\right_black_arrow67X67.png
+Src\Images\FMX Icons\butticns\IL50\up50X50.png
+Src\Images\FMX Icons\butticns\IL50\up90X90.png
+Src\Images\FMX Icons\butticns\IL50\UP_arrow67X67.png
+Src\Images\FMX Icons\butticns\IL50\Up_black_arrow67.png
+Src\Images\FMX Icons\butticns\IL50\up_white_arrow50X50.png
+Src\Images\FMX Icons\butticns\IL50\credit terminal\americanExpress_50.png
+Src\Images\FMX Icons\butticns\IL50\credit terminal\americanExpress_50f.png
+Src\Images\FMX Icons\butticns\IL50\credit terminal\Discover_50.png
+Src\Images\FMX Icons\butticns\IL50\credit terminal\Discover_50f.png
+Src\Images\FMX Icons\butticns\IL50\credit terminal\MasterCard_50.png
+Src\Images\FMX Icons\butticns\IL50\credit terminal\MasterCard_50f.png
+Src\Images\FMX Icons\butticns\IL50\credit terminal\Visa_50.png
+Src\Images\FMX Icons\butticns\IL50\credit terminal\Visa_50f.png
+Src\Images\FMX Icons\butticns\IL50\Forcedmod\down50X50.png
+Src\Images\FMX Icons\butticns\IL50\Forcedmod\up50X50.png
+Src\Images\FMX Icons\butticns\IL50\gratuitity\Down_arrow.png
+Src\Images\FMX Icons\butticns\IL50\gratuitity\left_arrow.png
+Src\Images\FMX Icons\butticns\IL50\gratuitity\right_arrow.png
+Src\Images\FMX Icons\butticns\IL50\gratuitity\Up_arrow.png
+Src\Images\FMX Icons\butticns\IL50\KeypadScreen\circle-icon-21-white.png
+Src\Images\FMX Icons\butticns\IL50\KeypadScreen\circle-icon-21.png
+Src\Images\FMX Icons\butticns\IL50\KeypadScreen\circle-icon.png
+Src\Images\FMX Icons\butticns\IL50\KeypadScreen\clear_icon.png
+Src\Images\FMX Icons\butticns\IL50\KeypadScreen\close_icon.png
+Src\Images\FMX Icons\butticns\IL50\KeypadScreen\delivery-center_black_50.png
+Src\Images\FMX Icons\butticns\IL50\KeypadScreen\delivery-center_grey_50.png
+Src\Images\FMX Icons\butticns\IL50\KeypadScreen\delivery-center_white_50.png
+Src\Images\FMX Icons\butticns\IL50\removepayments\Down_arrow.png
+Src\Images\FMX Icons\butticns\IL50\removepayments\Down_arrow_gray.png
+Src\Images\FMX Icons\butticns\IL50\removepayments\Up_arrow.png
+Src\Images\FMX Icons\butticns\IL50\removepayments\Up_arrow_gray.png
+Src\Images\FMX Icons\butticns\IL50\SeatManager\Down_arrow.png
+Src\Images\FMX Icons\butticns\IL50\SeatManager\Down_arrow_gray.png
+Src\Images\FMX Icons\butticns\IL50\SeatManager\Up_arrow.png
+Src\Images\FMX Icons\butticns\IL50\SeatManager\Up_arrow_gray.png
+Src\Images\FMX Icons\butticns\IL50\splititem\50x50_down.png
+Src\Images\FMX Icons\butticns\IL50\splititem\50x50_Left.png
+Src\Images\FMX Icons\butticns\IL50\splititem\50x50_Right.png
+Src\Images\FMX Icons\butticns\IL50\splititem\50x50_up.png
+Src\Images\FMX Icons\butticns\IL50\TabsScreen\circle-57.png
+Src\Images\FMX Icons\butticns\IL50\TabsScreen\circle-icon-50X50.png
+Src\Images\FMX Icons\butticns\IL50\TabsScreen\circle-lin-50X50.png
+Src\Images\FMX Icons\butticns\IL50\TabsScreen\circle-lin-50x67.png
+Src\Images\FMX Icons\butticns\IL50\TabsScreen\cut-circle-lin-50-rotate.png
+Src\Images\FMX Icons\butticns\IL50\TabsScreen\cut-circle-lin-50.png
+Src\Images\FMX Icons\butticns\IL50\TabsScreen\cut_circle_m.png
+Src\Images\FMX Icons\butticns\IL50\TabsScreen\Delivery-truck50X50.png
+Src\Images\FMX Icons\butticns\IL50\TabsScreen\dine-in-50.png
+Src\Images\FMX Icons\butticns\IL50\TabsScreen\dine-in-50X50.png
+Src\Images\FMX Icons\butticns\IL50\TabsScreen\Down_white_arrow50X50.png
+Src\Images\FMX Icons\butticns\IL50\TabsScreen\left_arrow50.png
+Src\Images\FMX Icons\butticns\IL50\TabsScreen\left_arrow50X50.png
+Src\Images\FMX Icons\butticns\IL50\TabsScreen\left_arrow67X67.png
+Src\Images\FMX Icons\butticns\IL50\TabsScreen\left_black_arrow50X50.png
+Src\Images\FMX Icons\butticns\IL50\TabsScreen\left_white_arrow50X50.png
+Src\Images\FMX Icons\butticns\IL50\TabsScreen\Message_m.png
+Src\Images\FMX Icons\butticns\IL50\TabsScreen\mobile50x50.png
+Src\Images\FMX Icons\butticns\IL50\TabsScreen\order-50x50.png
+Src\Images\FMX Icons\butticns\IL50\TabsScreen\order1-50X50.png
+Src\Images\FMX Icons\butticns\IL50\TabsScreen\right_arrow50.png
+Src\Images\FMX Icons\butticns\IL50\TabsScreen\right_arrow50X50.png
+Src\Images\FMX Icons\butticns\IL50\TabsScreen\right_arrow67X67.png
+Src\Images\FMX Icons\butticns\IL50\TabsScreen\right_black_arrow50X50.png
+Src\Images\FMX Icons\butticns\IL50\TabsScreen\Right_white_arrow50X50.png
+Src\Images\FMX Icons\butticns\IL50\TabsScreen\shopping-50x50.png
+Src\Images\FMX Icons\butticns\IL50\TabsScreen\shopping-67X67.png
+Src\Images\FMX Icons\butticns\IL50\TabsScreen\shopping1-67X67.png
+Src\Images\FMX Icons\butticns\IL50\TabsScreen\up_white_arrow50X50.png
+Src\Images\FMX Icons\butticns\IL67\down67X67.png
+Src\Images\FMX Icons\butticns\IL67\No-Sale-White.zip
+Src\Images\FMX Icons\butticns\IL67\No-Sale.zip
+Src\Images\FMX Icons\butticns\IL67\up67X67.png
+Src\Images\FMX Icons\butticns\IL67\Forcedmod\down67X67.png
+Src\Images\FMX Icons\butticns\IL67\Forcedmod\up67X67.png
+Src\Images\FMX Icons\butticns\IL67\gratuitity\Down_arrow67X67.png
+Src\Images\FMX Icons\butticns\IL67\gratuitity\UP_arrow67X67.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\cash-in.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\cash-out.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\cut_circle_b.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\delivery-center_black_67.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\exit_b.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\incidents_b.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\manager_b.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\Message_b.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\order-entry_b.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\payout_b.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\points_logo.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\recall_b.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\Sales-report_b.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\screen_background.PNG
+Src\Images\FMX Icons\butticns\IL67\MainScreen\screen_background_big.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\server_in_b.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\server_out_b.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\Time-clock_b.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\transfer.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\void_b.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\Grey\cash-in-gray.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\Grey\cash-out-gray.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\Grey\cut_circle_b_87.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\Grey\delivery-center_grey_67.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\Grey\exit-icon.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\Grey\incident-icon.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\Grey\manager-icon.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\Grey\message-icon.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\Grey\order-enter-icon.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\Grey\payout-icon.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\Grey\points_logo.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\Grey\recall-icon.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\Grey\sales-report-icon.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\Grey\server-in-icon.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\Grey\server-out-icon.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\Grey\time-clock-icon.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\Grey\transfer-gray.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\Grey\void-icon.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\White\cash-in-white.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\White\cash-out-white.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\White\cut_circle_b.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\White\delivery-center_white_67.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\White\exit_b.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\White\incidents_b.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\White\manager_b.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\White\Message_b.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\White\No-Sale-White@67x67.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\White\order-entry_b.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\White\payout_b.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\White\points_logo.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\White\recall_b.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\White\Sales-report_b.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\White\screen_background.PNG
+Src\Images\FMX Icons\butticns\IL67\MainScreen\White\screen_background_big.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\White\server_in_b.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\White\server_out_b.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\White\Time-clock_b.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\White\transfer-white.png
+Src\Images\FMX Icons\butticns\IL67\MainScreen\White\void_b.png
+Src\Images\FMX Icons\butticns\IL67\PrinterHold\Down_arrow67X67.png
+Src\Images\FMX Icons\butticns\IL67\PrinterHold\left_arrow67X67.png
+Src\Images\FMX Icons\butticns\IL67\PrinterHold\right_arrow67X67.png
+Src\Images\FMX Icons\butticns\IL67\PrinterHold\UP_arrow67X67.png
+Src\Images\FMX Icons\butticns\IL67\removepayents\Down_arrow67X67.png
+Src\Images\FMX Icons\butticns\IL67\removepayents\UP_arrow67X67.png
+Src\Images\FMX Icons\butticns\IL67\SeatManager\Down_arrow67X67.png
+Src\Images\FMX Icons\butticns\IL67\SeatManager\UP_arrow67X67.png
+Src\Images\FMX Icons\butticns\IL67\splititem\67x67_down.png
+Src\Images\FMX Icons\butticns\IL67\splititem\67x67_Left.png
+Src\Images\FMX Icons\butticns\IL67\splititem\67x67_Right.png
+Src\Images\FMX Icons\butticns\IL67\splititem\67x67_up.png
+Src\Images\FMX Icons\butticns\IL67\TabsScreen\circle-icon-15-white.png
+Src\Images\FMX Icons\butticns\IL67\TabsScreen\circle-icon-45-white-copy.png
+Src\Images\FMX Icons\butticns\IL67\TabsScreen\circle-icon-67X67.png
+Src\Images\FMX Icons\butticns\IL67\TabsScreen\circle-lin-67.png
+Src\Images\FMX Icons\butticns\IL67\TabsScreen\circle-lin-67X67.png
+Src\Images\FMX Icons\butticns\IL67\TabsScreen\cut-circle-lin-45-rotate.png
+Src\Images\FMX Icons\butticns\IL67\TabsScreen\cut-circle-lin-45.png
+Src\Images\FMX Icons\butticns\IL67\TabsScreen\cut-circle-lin-67-rotate.png
+Src\Images\FMX Icons\butticns\IL67\TabsScreen\cut-circle-lin-67.png
+Src\Images\FMX Icons\butticns\IL67\TabsScreen\Delivery-truck67X67.png
+Src\Images\FMX Icons\butticns\IL67\TabsScreen\dine-in-67.png
+Src\Images\FMX Icons\butticns\IL67\TabsScreen\dine-in-67X67.png
+Src\Images\FMX Icons\butticns\IL67\TabsScreen\Down_arrow67X67.png
+Src\Images\FMX Icons\butticns\IL67\TabsScreen\Down_black_arrow67X67.png
+Src\Images\FMX Icons\butticns\IL67\TabsScreen\left_arrow67.png
+Src\Images\FMX Icons\butticns\IL67\TabsScreen\left_arrow67X67.png
+Src\Images\FMX Icons\butticns\IL67\TabsScreen\left_black_arrow67X67.png
+Src\Images\FMX Icons\butticns\IL67\TabsScreen\mobile67X67.png
+Src\Images\FMX Icons\butticns\IL67\TabsScreen\order-67X67.png
+Src\Images\FMX Icons\butticns\IL67\TabsScreen\order1-67X67.png
+Src\Images\FMX Icons\butticns\IL67\TabsScreen\right_arrow67.png
+Src\Images\FMX Icons\butticns\IL67\TabsScreen\right_arrow67X67.png
+Src\Images\FMX Icons\butticns\IL67\TabsScreen\right_black_arrow67X67.png
+Src\Images\FMX Icons\butticns\IL67\TabsScreen\shopping-67X67.png
+Src\Images\FMX Icons\butticns\IL67\TabsScreen\shopping1-67X67.png
+Src\Images\FMX Icons\butticns\IL67\TabsScreen\UP_arrow67X67.png
+Src\Images\FMX Icons\butticns\IL67\TabsScreen\Up_black_arrow67.png
+Src\Images\FMX Icons\butticns\IL80\down_arrow80.png
+Src\Images\FMX Icons\butticns\IL80\left_arrow80 - .png
+Src\Images\FMX Icons\butticns\IL80\right_black_arrow80.png
+Src\Images\FMX Icons\butticns\IL80\up_black_arrow80 .png
+Src\Images\FMX Icons\butticns\IL80\splititem\80x80_Left.png
+Src\Images\FMX Icons\butticns\IL80\splititem\80x80_Right.png
+Src\Images\FMX Icons\butticns\IL95\TabsScreen\l_circle-(95x95).png
+Src\Images\FMX Icons\butticns\IL95\TabsScreen\l_horz_oval_(95x95).png
+Src\Images\FMX Icons\butticns\IL95\TabsScreen\l_horz_rect_(95x95).png
+Src\Images\FMX Icons\butticns\IL95\TabsScreen\l_square_(95x95).png
+Src\Images\FMX Icons\butticns\IL95\TabsScreen\l_vert_oval_(95x95).png
+Src\Images\FMX Icons\butticns\IL95\TabsScreen\l_vert_rect_(95x95).png
+Src\Images\FMX Icons\butticns\IL95\TabsScreen\m_circle_(95x95).png
+Src\Images\FMX Icons\butticns\IL95\TabsScreen\m_horz_oval_(95x95).png
+Src\Images\FMX Icons\butticns\IL95\TabsScreen\m_horz_rect_(95x95).png
+Src\Images\FMX Icons\butticns\IL95\TabsScreen\m_square_(95x95).png
+Src\Images\FMX Icons\butticns\IL95\TabsScreen\m_vert_oval_(95x95).png
+Src\Images\FMX Icons\butticns\IL95\TabsScreen\m_vert_rect_(95x95).png
+Src\Images\FMX Icons\butticns\IL95\TabsScreen\s_circle_(95x95).png
+Src\Images\FMX Icons\butticns\IL95\TabsScreen\s_horz_oval_(95x95).png
+Src\Images\FMX Icons\butticns\IL95\TabsScreen\s_horz_rect_(95x95).png
+Src\Images\FMX Icons\butticns\IL95\TabsScreen\s_square_(95x95).png
+Src\Images\FMX Icons\butticns\IL95\TabsScreen\s_vert_oval_(95x95).png
+Src\Images\FMX Icons\butticns\IL95\TabsScreen\s_vert_rect_(95x95).png
+Src\Images\FMX Icons\butticns\IL95\TabsScreen\Yellow\l_circle_(95x95).png
+Src\Images\FMX Icons\butticns\IL95\TabsScreen\Yellow\l_horz_oval_(95x95).png
+Src\Images\FMX Icons\butticns\IL95\TabsScreen\Yellow\l_horz_rect_(95x95).png
+Src\Images\FMX Icons\butticns\IL95\TabsScreen\Yellow\l_square_(95x95).png
+Src\Images\FMX Icons\butticns\IL95\TabsScreen\Yellow\l_vert_oval_(95x95).png
+Src\Images\FMX Icons\butticns\IL95\TabsScreen\Yellow\l_vert_rect_(95x95).png
+Src\Images\FMX Icons\butticns\IL95\TabsScreen\Yellow\m_circle_(95x95).png
+Src\Images\FMX Icons\butticns\IL95\TabsScreen\Yellow\m_horz_oval_(95x95).png
+Src\Images\FMX Icons\butticns\IL95\TabsScreen\Yellow\m_horz_rect_(95x95).png
+Src\Images\FMX Icons\butticns\IL95\TabsScreen\Yellow\m_square_(95x95).png
+Src\Images\FMX Icons\butticns\IL95\TabsScreen\Yellow\m_vert_oval_(95x95).png
+Src\Images\FMX Icons\butticns\IL95\TabsScreen\Yellow\m_vert_rect_(95x95).png
+Src\Images\FMX Icons\butticns\IL95\TabsScreen\Yellow\s_circle_(95x95).png
+Src\Images\FMX Icons\butticns\IL95\TabsScreen\Yellow\s_horz_oval_(95x95).png
+Src\Images\FMX Icons\butticns\IL95\TabsScreen\Yellow\s_horz_rect_(95x95).png
+Src\Images\FMX Icons\butticns\IL95\TabsScreen\Yellow\s_square_(95x95).png
+Src\Images\FMX Icons\butticns\IL95\TabsScreen\Yellow\s_vert_oval_(95x95).png
+Src\Images\FMX Icons\butticns\IL95\TabsScreen\Yellow\s_vert_rect_(95x95).png
+Src\Images\FMX Icons\butticns\IL97\Delivery-truck50X50.png
+Src\Images\FMX Icons\butticns\IL97\Delivery-truck67X67.png
+Src\Images\FMX Icons\butticns\IL97\Delivery-truck97X97.png
+Src\Images\FMX Icons\butticns\IL97\down97X97.png
+Src\Images\FMX Icons\butticns\IL97\up90X90.png
+Src\Images\FMX Icons\butticns\IL97\KeypadScreen\circle-icon-25-white.png
+Src\Images\FMX Icons\butticns\IL97\KeypadScreen\circle-icon-25.png
+Src\Images\FMX Icons\butticns\IL97\KeypadScreen\clear-icon.png
+Src\Images\FMX Icons\butticns\IL97\KeypadScreen\close_icon.png
+Src\Images\FMX Icons\butticns\IL97\KeypadScreen\Message_67x67.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\cash-in.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\cash-out.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\cut_circle_b_87.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\delivery-center_black_97.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\exit-icon.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\incident-icon.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\manager-icon.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\message-icon.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\order-enter-icon.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\payout-icon.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\points_logo.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\recall-icon.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\sales-report-icon.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\screen_background.PNG
+Src\Images\FMX Icons\butticns\IL97\MainScreen\server-in-icon.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\server-out-icon.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\time-clock-icon.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\transfer.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\void-icon.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\Grey\cash-in-gray.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\Grey\cash-out-gray.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\Grey\cut_circle_b_87.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\Grey\delivery-center_grey_97.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\Grey\exit-icon.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\Grey\incident-icon.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\Grey\manager-icon.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\Grey\message-icon.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\Grey\order-enter-icon.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\Grey\payout-icon.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\Grey\points_logo_grey.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\Grey\recall-icon.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\Grey\sales-report-icon.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\Grey\server-in-icon.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\Grey\server-out-icon.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\Grey\time-clock-icon.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\Grey\transfer-gray.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\Grey\void-icon.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\White\cash-in-white.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\White\cash-out-white.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\White\cut_circle_b_87.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\White\delivery-center_white_97.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\White\exit-icon.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\White\incident-icon.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\White\manager-icon.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\White\message-icon.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\White\No-Sale-White@97x97.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\White\order-enter-icon.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\White\payout-icon.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\White\points_logo.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\White\recall-icon.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\White\sales-report-icon.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\White\screen_background.PNG
+Src\Images\FMX Icons\butticns\IL97\MainScreen\White\server-in-icon.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\White\server-out-icon.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\White\time-clock-icon.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\White\transfer-white.png
+Src\Images\FMX Icons\butticns\IL97\MainScreen\White\void-icon.png
+Src\Images\FMX Icons\butticns\IL97\TabsScreen\circle-lin-97.png
+Src\Images\FMX Icons\butticns\IL97\TabsScreen\Delivery-truck97X97.png
+Src\Images\FMX Icons\butticns\IL97\TabsScreen\dine-in-97X97.png
+Src\Images\FMX Icons\butticns\IL97\TabsScreen\down_arrow97X97.png
+Src\Images\FMX Icons\butticns\IL97\TabsScreen\Down_black_arrow97X97.png
+Src\Images\FMX Icons\butticns\IL97\TabsScreen\left_arrow97X97.png
+Src\Images\FMX Icons\butticns\IL97\TabsScreen\left_black_arrow97X97.png
+Src\Images\FMX Icons\butticns\IL97\TabsScreen\left_Yellow_arrow97X97.png
+Src\Images\FMX Icons\butticns\IL97\TabsScreen\mobile97X97.png
+Src\Images\FMX Icons\butticns\IL97\TabsScreen\order-97X97.png
+Src\Images\FMX Icons\butticns\IL97\TabsScreen\order1-97X97.png
+Src\Images\FMX Icons\butticns\IL97\TabsScreen\right_arrow97X97.png
+Src\Images\FMX Icons\butticns\IL97\TabsScreen\right_black_arrow97X97.png
+Src\Images\FMX Icons\butticns\IL97\TabsScreen\right_Yellow_arrow97X97.png
+Src\Images\FMX Icons\butticns\IL97\TabsScreen\shopping-97X97.png
+Src\Images\FMX Icons\butticns\IL97\TabsScreen\shopping1-97X97.png
+Src\Images\FMX Icons\butticns\IL97\TabsScreen\TabsScreen.zip
+Src\Images\FMX Icons\butticns\IL97\TabsScreen\Up_arrow97X97.png
+Src\Images\FMX Icons\butticns\IL97\TabsScreen\Up_black_arrow97X97.png
+Src\Images\FMX Icons\Drink and Food\POS_Bar_Icons-01.png
+Src\Images\FMX Icons\Drink and Food\POS_Bar_Icons-02.png
+Src\Images\FMX Icons\Drink and Food\POS_Bar_Icons-03.png
+Src\Images\FMX Icons\Drink and Food\POS_Bar_Icons-04.png
+Src\Images\FMX Icons\Drink and Food\POS_Bar_Icons-05.png
+Src\Images\FMX Icons\Drink and Food\POS_Bar_Icons-06.png
+Src\Images\FMX Icons\Drink and Food\POS_Bar_Icons-07.png
+Src\Images\FMX Icons\Drink and Food\POS_Bar_Icons-08.png
+Src\Images\FMX Icons\Drink and Food\POS_Bar_Icons-09.png
+Src\Images\FMX Icons\Drink and Food\POS_Bar_Icons-10.png
+Src\Images\FMX Icons\Drink and Food\POS_Bar_Icons-11.png
+Src\Images\FMX Icons\Drink and Food\POS_Bar_Icons-12.png
+Src\Images\FMX Icons\Drink and Food\POS_Bar_Icons-13.png
+Src\Images\FMX Icons\Drink and Food\POS_Bar_Icons-14.png
+Src\Images\FMX Icons\Drink and Food\POS_Bar_Icons-15.png
+Src\Images\FMX Icons\Drink and Food\POS_Bar_Icons-16.png
+Src\Images\FMX Icons\Drink and Food\POS_Bar_Icons-17.png
+Src\Images\FMX Icons\Drink and Food\POS_Bar_Icons-18.png
+Src\Images\FMX Icons\Drink and Food\POS_Bar_Icons-19.png
+Src\Images\FMX Icons\Drink and Food\POS_Bar_Icons-20.png
+Src\Images\FMX Icons\Drink and Food\POS_Bar_Icons-21.png
+Src\Images\FMX Icons\Drink and Food\POS_Bar_Icons-22.png
+Src\Images\FMX Icons\Drink and Food\POS_Bar_Icons-23.png
+Src\Images\FMX Icons\Drink and Food\POS_Bar_Icons-24.png
+Src\Images\FMX Icons\Drink and Food\POS_Bar_Icons-24.zip
+Src\Images\group-white-48dp\1x\baseline_group_white_48dp.png
+Src\Images\group-white-48dp\2x\baseline_group_white_48dp.png
+Src\Images\highlight_off-white-36dp\1x\baseline_highlight_off_white_36dp.png
+Src\Images\highlight_off-white-36dp\2x\baseline_highlight_off_white_36dp.png
+Src\Images\highlight_off-white-48dp\1x\baseline_highlight_off_white_48dp.png
+Src\Images\highlight_off-white-48dp\2x\baseline_highlight_off_white_48dp.png
+Src\Images\home-white-48dp\1x\baseline_home_white_48dp.png
+Src\Images\home-white-48dp\2x\baseline_home_white_48dp.png
+Src\Images\keyboard_arrow_left-white-48dp\1x\baseline_keyboard_arrow_left_white_48dp.png
+Src\Images\keyboard_arrow_left-white-48dp\2x\baseline_keyboard_arrow_left_white_48dp.png
+Src\Images\laptop-white-48dp\1x\baseline_laptop_white_48dp.png
+Src\Images\laptop-white-48dp\2x\baseline_laptop_white_48dp.png
+Src\Images\list-white-48dp\1x\baseline_list_white_48dp.png
+Src\Images\list-white-48dp\2x\baseline_list_white_48dp.png
+Src\Images\logo\pointOS_logo.png
+Src\Images\Logos and Marks\PointOS  Logo blue circle Symbol_transparent.png
+Src\Images\Logos and Marks\PointOS All WHITE Logo mark_Transparent.png
+Src\Images\Logos and Marks\PointOS Color Logo Symbol_Transparent.png
+Src\Images\Logos and Marks\PointOS Color Logo_transparent.png
+Src\Images\Logos and Marks\PointOS Color Logo_transparent_200px.png
+Src\Images\Logos and Marks\PointOS Color Logo_transparent_400px.png
+Src\Images\Logos and Marks\PointOS Logo_blue circle_transparent.png
+Src\Images\Logos and Marks\PointOS WHITE Logo Symbol_transparent.png
+Src\Images\Logos and Marks\PointOS white Logo_ Transparent.png
+Src\Images\MAINMENU\IL67\MAINMENU_IL67_00.png
+Src\Images\MAINMENU\IL67\MAINMENU_IL67_01.png
+Src\Images\MAINMENU\IL67\MAINMENU_IL67_02.png
+Src\Images\MAINMENU\IL67\MAINMENU_IL67_03.png
+Src\Images\MAINMENU\IL67\MAINMENU_IL67_07.png
+Src\Images\MAINMENU\IL67\MAINMENU_IL67_08.png
+Src\Images\MAINMENU\IL67\MAINMENU_IL67_10.png
+Src\Images\MAINMENU\IL67\MAINMENU_IL67_14.png
+Src\Images\MAINMENU\IL97\MAINMENU_IL67_07.png
+Src\Images\MAINMENU\IL97\MAINMENU_IL97_00.png
+Src\Images\MAINMENU\IL97\MAINMENU_IL97_02.png
+Src\Images\MAINMENU\IL97\MAINMENU_IL97_03.png
+Src\Images\MAINMENU\IL97\MAINMENU_IL97_10.png
+Src\Images\MAINMENU\IL97\MAINMENU_IL97_14.png
+Src\Images\manager_button_100px\manager-100.png
+Src\Images\open_in_new-white-36dp\1x\baseline_open_in_new_white_36dp.png
+Src\Images\open_in_new-white-36dp\2x\baseline_open_in_new_white_36dp.png
+Src\Images\order_entry_button_100px\entry_100.png
+Src\Images\phonelink_setup-white-48dp\1x\baseline_phonelink_setup_white_48dp.png
+Src\Images\phonelink_setup-white-48dp\2x\baseline_phonelink_setup_white_48dp.png
+Src\Images\print-white-36dp\1x\baseline_print_white_36dp.png
+Src\Images\print-white-36dp\2x\baseline_print_white_36dp.png
+Src\Images\radio_button_checked-black-36dp\1x\baseline_radio_button_checked_black_36dp.png
+Src\Images\radio_button_checked-black-36dp\1x\Check_and_uncheck.png
+Src\Images\radio_button_checked-black-36dp\2x\baseline_radio_button_checked_black_36dp.png
+Src\Images\radio_button_checked-black-36dp\2x\Check_and_uncheck_X2.png
+Src\Images\radio_button_unchecked-black-36dp\1x\baseline_radio_button_unchecked_black_36dp.png
+Src\Images\radio_button_unchecked-black-36dp\2x\baseline_radio_button_unchecked_black_36dp.png
+Src\Images\room-white-48dp\1x\baseline_room_white_48dp.png
+Src\Images\room-white-48dp\2x\baseline_room_white_48dp.png
+Src\Images\settings_applications-white-48dp\1x\baseline_settings_applications_white_48dp.png
+Src\Images\settings_applications-white-48dp\2x\baseline_settings_applications_white_48dp.png
+Src\Images\subtitles-white-48dp\1x\baseline_subtitles_white_48dp.png
+Src\Images\subtitles-white-48dp\2x\baseline_subtitles_white_48dp.png
+Src\Images\Tables\1x\Circle_l.png
+Src\Images\Tables\1x\Circle_m.png
+Src\Images\Tables\1x\Circle_s.png
+Src\Images\Tables\1x\horz_oval_l.png
+Src\Images\Tables\1x\horz_oval_m.png
+Src\Images\Tables\1x\horz_oval_s.png
+Src\Images\Tables\1x\horz_rect_l.png
+Src\Images\Tables\1x\horz_rect_m.png
+Src\Images\Tables\1x\horz_rect_s.png
+Src\Images\Tables\1x\square_l.png
+Src\Images\Tables\1x\square_m.png
+Src\Images\Tables\1x\square_s.png
+Src\Images\Tables\1x\vert_oval_l.png
+Src\Images\Tables\1x\vert_oval_m.png
+Src\Images\Tables\1x\vert_oval_s.png
+Src\Images\Tables\1x\vert_rect_l.png
+Src\Images\Tables\1x\vert_rect_m.png
+Src\Images\Tables\1x\vert_rect_s.png
+Src\Images\Tables\2x\Circle_l.png
+Src\Images\Tables\2x\Circle_m.png
+Src\Images\Tables\2x\Circle_s.png
+Src\Images\Tables\2x\horz_oval_l.png
+Src\Images\Tables\2x\horz_oval_m.png
+Src\Images\Tables\2x\horz_oval_s.png
+Src\Images\Tables\2x\horz_rect_l.png
+Src\Images\Tables\2x\horz_rect_m.png
+Src\Images\Tables\2x\horz_rect_s.png
+Src\Images\Tables\2x\square_l.png
+Src\Images\Tables\2x\square_m.png
+Src\Images\Tables\2x\square_s.png
+Src\Images\Tables\2x\vert_oval_l.png
+Src\Images\Tables\2x\vert_oval_m.png
+Src\Images\Tables\2x\vert_oval_s.png
+Src\Images\Tables\2x\vert_rect_l.png
+Src\Images\Tables\2x\vert_rect_m.png
+Src\Images\Tables\2x\vert_rect_s.png
+Src\Images\view_list-white-48dp\1x\baseline_view_list_white_48dp.png
+Src\Images\view_list-white-48dp\2x\baseline_view_list_white_48dp.png
+Src\Sources\OrderEntry.dpr
+Src\Sources\OrderEntry.dproj
+Src\Sources\OrderEntry.dproj.local
+Src\Sources\OrderEntry.dsk
+Src\Sources\OrderEntry.identcache
+Src\Sources\OrderEntry.res
+Src\Sources\OrderEntry.stat
+Src\Sources\Classes\uDataClasses.pas
+Src\Sources\GUI\uBaseForm.pas
+Src\Sources\GUI\uFrameLeftOrderMenu.fmx
+Src\Sources\GUI\uFrameLeftOrderMenu.pas
+Src\Sources\GUI\uFrameTabsList.fmx
+Src\Sources\GUI\uFrameTabsList.pas
+Src\Sources\GUI\ufrmDeletePayout.fmx
+Src\Sources\GUI\ufrmMain.fmx
+Src\Sources\GUI\ufrmMain.pas
+Src\Sources\GUI\ufrmTabs.fmx
+Src\Sources\GUI\ufrmTabs.pas
+Src\Sources\GUI\uModifiersForm.fmx
+Src\Sources\GUI\uModifiersForm.pas
+Src\Sources\GUI\uOrderDetailsFrame.fmx
+Src\Sources\GUI\uOrderDetailsFrame.pas
+Src\Sources\GUI\uOrderEntryForm.fmx
+Src\Sources\GUI\uOrderEntryForm.pas
+Src\Sources\GUI\uPayments.fmx
+Src\Sources\GUI\uPayments.pas
+Src\Sources\GUI\uRigthCategoriesFrame.fmx
+Src\Sources\GUI\uRigthCategoriesFrame.pas
+Src\Sources\GUI\uTablesFrame.fmx
+Src\Sources\GUI\uTablesFrame.pas
+Src\Sources\ORM\uDMUnit.dfm
+Src\Sources\ORM\uDMUnit.pas
+Src\Sources\ORM\uMainDM.dfm
+Src\Sources\ORM\uMainDM.pas
+900 arquivo(s) copiado(s)

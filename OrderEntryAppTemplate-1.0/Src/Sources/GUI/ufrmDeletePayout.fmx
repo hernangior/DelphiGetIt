@@ -1,0 +1,432 @@
+object frmDeletePayout: TfrmDeletePayout
+  Left = 0
+  Top = 0
+  Caption = 'frmDeletePayout'
+  ClientHeight = 720
+  ClientWidth = 1280
+  Position = MainFormCenter
+  StyleBook = fMain.StyleBook1
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnClose = FormClose
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object LayoutContent: TLayout
+    Align = Contents
+    Size.Width = 1280.000000000000000000
+    Size.Height = 720.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object pCaption: TPanel
+      Align = MostTop
+      HitTest = False
+      Size.Width = 1280.000000000000000000
+      Size.Height = 80.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'PanelManagersStyle'
+      TabOrder = 1
+    end
+    object pBackground: TPanel
+      Align = Top
+      Position.Y = 80.000000000000000000
+      Size.Width = 1280.000000000000000000
+      Size.Height = 550.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'PanelDBBackgroundStyle'
+      TabOrder = 0
+      object pBlock1Client: TPanel
+        Align = Client
+        Margins.Left = 1.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 1.000000000000000000
+        Margins.Bottom = 1.000000000000000000
+        Size.Width = 1278.000000000000000000
+        Size.Height = 539.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'PanelDBClientBG'
+        TabOrder = 0
+        object gplMain: TGridPanelLayout
+          Align = Client
+          Margins.Left = 20.000000000000000000
+          Margins.Top = 30.000000000000000000
+          Margins.Right = 20.000000000000000000
+          Size.Width = 1238.000000000000000000
+          Size.Height = 509.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          ColumnCollection = <
+            item
+              Value = 100.000000000000000000
+            end>
+          ControlCollection = <
+            item
+              Column = 0
+              Control = LayoutGridHeaders
+              Row = 0
+            end
+            item
+              Column = 0
+              Control = LayoutGrid
+              Row = 1
+            end
+            item
+              Column = 0
+              Control = LayoutComments
+              Row = 2
+            end>
+          RowCollection = <
+            item
+              SizeStyle = Absolute
+              Value = 35.000000000000000000
+            end
+            item
+              Value = 100.000000000000000000
+            end
+            item
+              SizeStyle = Absolute
+              Value = 90.000000000000000000
+            end
+            item
+              SizeStyle = Auto
+            end>
+          object LayoutGridHeaders: TLayout
+            Align = Client
+            Size.Width = 1238.000000000000000000
+            Size.Height = 35.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 2
+            object pGridHeaders: TPanel
+              Align = Client
+              Size.Width = 1238.000000000000000000
+              Size.Height = 35.000000000000000000
+              Size.PlatformDefault = False
+              StyleLookup = 'PanelGridHeaderStyle'
+              TabOrder = 0
+              object gplGridHeaders: TGridPanelLayout
+                Align = Client
+                Size.Width = 1238.000000000000000000
+                Size.Height = 35.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 0
+                ColumnCollection = <
+                  item
+                    Value = 19.998103052673790000
+                  end
+                  item
+                    Value = 20.000486987596260000
+                  end
+                  item
+                    Value = 20.001754804054850000
+                  end
+                  item
+                    Value = 20.000679168782470000
+                  end
+                  item
+                    Value = 19.998975986892630000
+                  end>
+                ControlCollection = <
+                  item
+                    Column = 0
+                    Control = Layout2
+                    Row = 0
+                  end
+                  item
+                    Column = 1
+                    Control = Layout3
+                    Row = 0
+                  end
+                  item
+                    Column = 2
+                    Control = Layout4
+                    Row = 0
+                  end
+                  item
+                    Column = 3
+                    Control = Layout5
+                    Row = 0
+                  end
+                  item
+                    Column = 4
+                    Control = Layout6
+                    Row = 0
+                  end>
+                RowCollection = <
+                  item
+                    Value = 100.000000000000000000
+                  end
+                  item
+                    SizeStyle = Auto
+                  end>
+                object Layout2: TLayout
+                  Align = Client
+                  Size.Width = 247.576522827148400000
+                  Size.Height = 35.000000000000000000
+                  Size.PlatformDefault = False
+                  TabOrder = 4
+                  object tHeaderDate: TText
+                    Align = Client
+                    Margins.Left = 10.000000000000000000
+                    Size.Width = 237.576522827148400000
+                    Size.Height = 35.000000000000000000
+                    Size.PlatformDefault = False
+                    Text = 'Date'
+                    TextSettings.Font.Family = 'Arial'
+                    TextSettings.Font.Size = 24.000000000000000000
+                    TextSettings.FontColor = xFF242222
+                    TextSettings.HorzAlign = Leading
+                  end
+                end
+                object Layout3: TLayout
+                  Align = Client
+                  Size.Width = 247.606033325195300000
+                  Size.Height = 35.000000000000000000
+                  Size.PlatformDefault = False
+                  TabOrder = 3
+                  object tHeaderTime: TText
+                    Align = Client
+                    Margins.Left = 10.000000000000000000
+                    Size.Width = 237.606033325195300000
+                    Size.Height = 35.000000000000000000
+                    Size.PlatformDefault = False
+                    Text = 'Time'
+                    TextSettings.Font.Family = 'Arial'
+                    TextSettings.Font.Size = 24.000000000000000000
+                    TextSettings.FontColor = xFF242222
+                    TextSettings.HorzAlign = Leading
+                  end
+                end
+                object Layout4: TLayout
+                  Align = Client
+                  Size.Width = 247.621704101562500000
+                  Size.Height = 35.000000000000000000
+                  Size.PlatformDefault = False
+                  TabOrder = 2
+                  object tHeaderCategory: TText
+                    Align = Client
+                    Margins.Left = 10.000000000000000000
+                    Size.Width = 237.621704101562500000
+                    Size.Height = 35.000000000000000000
+                    Size.PlatformDefault = False
+                    Text = 'Category'
+                    TextSettings.Font.Family = 'Arial'
+                    TextSettings.Font.Size = 24.000000000000000000
+                    TextSettings.FontColor = xFF242222
+                    TextSettings.HorzAlign = Leading
+                  end
+                end
+                object Layout5: TLayout
+                  Align = Client
+                  Size.Width = 247.608398437500000000
+                  Size.Height = 35.000000000000000000
+                  Size.PlatformDefault = False
+                  TabOrder = 1
+                  object tHeaderPayoutTo: TText
+                    Align = Client
+                    Margins.Left = 10.000000000000000000
+                    Size.Width = 237.608398437500000000
+                    Size.Height = 35.000000000000000000
+                    Size.PlatformDefault = False
+                    Text = 'Payout To'
+                    TextSettings.Font.Family = 'Arial'
+                    TextSettings.Font.Size = 24.000000000000000000
+                    TextSettings.FontColor = xFF242222
+                    TextSettings.HorzAlign = Leading
+                  end
+                end
+                object Layout6: TLayout
+                  Align = Client
+                  Size.Width = 247.587341308593800000
+                  Size.Height = 35.000000000000000000
+                  Size.PlatformDefault = False
+                  TabOrder = 0
+                  object tHeaderAmount: TText
+                    Align = Client
+                    Margins.Left = 10.000000000000000000
+                    Size.Width = 237.587341308593800000
+                    Size.Height = 35.000000000000000000
+                    Size.PlatformDefault = False
+                    Text = 'Amount'
+                    TextSettings.Font.Family = 'Arial'
+                    TextSettings.Font.Size = 24.000000000000000000
+                    TextSettings.FontColor = xFF242222
+                    TextSettings.HorzAlign = Leading
+                  end
+                end
+              end
+            end
+          end
+          object LayoutGrid: TLayout
+            Align = Client
+            Size.Width = 1238.000000000000000000
+            Size.Height = 384.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+            object lbPayout: TListBox
+              Align = Client
+              Size.Width = 1238.000000000000000000
+              Size.Height = 384.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 0
+              DisableFocusEffect = True
+              DefaultItemStyles.ItemStyle = ''
+              DefaultItemStyles.GroupHeaderStyle = ''
+              DefaultItemStyles.GroupFooterStyle = ''
+              OnItemClick = lbPayoutItemClick
+              Viewport.Width = 1234.000000000000000000
+              Viewport.Height = 380.000000000000000000
+              object ListBoxItem1: TListBoxItem
+                Size.Width = 1234.000000000000000000
+                Size.Height = 70.000000000000000000
+                Size.PlatformDefault = False
+                StyleLookup = 'ListboxItemDeletePayout'
+                TabOrder = 0
+                Text = 'ListBoxItem1'
+              end
+              object ListBoxItem2: TListBoxItem
+                Position.Y = 70.000000000000000000
+                Size.Width = 1234.000000000000000000
+                Size.Height = 70.000000000000000000
+                Size.PlatformDefault = False
+                StyleLookup = 'ListboxItemDeletePayout'
+                TabOrder = 1
+                Text = 'ListBoxItem2'
+              end
+            end
+          end
+          object LayoutComments: TLayout
+            Align = Client
+            Size.Width = 1238.000000000000000000
+            Size.Height = 90.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            object tExplenation1: TText
+              Align = MostTop
+              HitTest = False
+              Size.Width = 1238.000000000000000000
+              Size.Height = 45.000000000000000000
+              Size.PlatformDefault = False
+              Text = 'Payouts Can Only Be Deleted From the Station'
+              TextSettings.Font.Family = 'Arial'
+              TextSettings.Font.Size = 32.000000000000000000
+              TextSettings.FontColor = xFF242222
+            end
+            object tExplenation2: TText
+              Align = Top
+              HitTest = False
+              Position.Y = 45.000000000000000000
+              Size.Width = 1238.000000000000000000
+              Size.Height = 45.000000000000000000
+              Size.PlatformDefault = False
+              Text = 'That Has An Open Drawer'
+              TextSettings.Font.Family = 'Arial'
+              TextSettings.Font.Size = 32.000000000000000000
+              TextSettings.FontColor = xFF242222
+            end
+          end
+        end
+      end
+    end
+    object LayoutBottomButtons: TLayout
+      Align = Client
+      Margins.Top = 3.000000000000000000
+      Size.Width = 1280.000000000000000000
+      Size.Height = 87.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      object pBottomButtons: TPanel
+        Align = MostTop
+        HitTest = False
+        Size.Width = 1280.000000000000000000
+        Size.Height = 87.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'PanelDBBackgroundStyle'
+        TabOrder = 2
+        object GridPanelLayout3: TGridPanelLayout
+          Align = Client
+          Margins.Left = 20.000000000000000000
+          Margins.Right = 20.000000000000000000
+          Size.Width = 1240.000000000000000000
+          Size.Height = 87.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          ColumnCollection = <
+            item
+              Value = 50.000000000000000000
+            end
+            item
+              Value = 50.000000000000000000
+            end>
+          ControlCollection = <
+            item
+              Column = 0
+              Control = LayoutHideScreen
+              Row = 0
+            end
+            item
+              Column = 1
+              Control = Layout1
+              Row = 0
+            end>
+          RowCollection = <
+            item
+              Value = 100.000000000000000000
+            end
+            item
+              SizeStyle = Auto
+            end>
+          object LayoutHideScreen: TLayout
+            Align = Client
+            Size.Width = 620.000000000000000000
+            Size.Height = 87.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+            object btnCancel: TButton
+              Align = Right
+              Margins.Top = 10.000000000000000000
+              Margins.Right = 15.000000000000000000
+              Margins.Bottom = 10.000000000000000000
+              Position.X = 305.000000000000000000
+              Position.Y = 10.000000000000000000
+              Size.Width = 300.000000000000000000
+              Size.Height = 67.000000000000000000
+              Size.PlatformDefault = False
+              StyleLookup = 'ButtonBatchHideWinStyle'
+              TabOrder = 0
+              Text = 'Cancel'
+              OnClick = btnCancelClick
+            end
+          end
+          object Layout1: TLayout
+            Align = Client
+            Size.Width = 620.000000000000000000
+            Size.Height = 87.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            object btnDone: TButton
+              Align = Left
+              Margins.Left = 15.000000000000000000
+              Margins.Top = 10.000000000000000000
+              Margins.Bottom = 10.000000000000000000
+              Position.X = 15.000000000000000000
+              Position.Y = 10.000000000000000000
+              Size.Width = 300.000000000000000000
+              Size.Height = 67.000000000000000000
+              Size.PlatformDefault = False
+              StyleLookup = 'ButtonDrawerDoneStyle'
+              TabOrder = 0
+              Text = 'Done'
+              OnClick = btnDoneClick
+            end
+          end
+        end
+      end
+    end
+  end
+  object tFormShowed: TTimer
+    Interval = 50
+    OnTimer = tFormShowedTimer
+    Left = 624
+    Top = 344
+  end
+end

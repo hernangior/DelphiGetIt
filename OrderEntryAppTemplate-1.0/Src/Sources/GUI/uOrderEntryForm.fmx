@@ -1,0 +1,529 @@
+object OrderEntryForm: TOrderEntryForm
+  Left = 0
+  Top = 0
+  Caption = 'Order Entry'
+  ClientHeight = 768
+  ClientWidth = 1024
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object CenterPane: TLayout
+    Align = Client
+    Size.Width = 519.000000000000000000
+    Size.Height = 768.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object OrderInfoLayout: TLayout
+      Align = Top
+      Size.Width = 519.000000000000000000
+      Size.Height = 90.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object EditNamePnl: TPanel
+        Align = Client
+        Size.Width = 519.000000000000000000
+        Size.Height = 90.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'HeaderStyle'
+        TabOrder = 0
+        object EditNameLayout: TLayout
+          Align = Top
+          Size.Width = 519.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object TabNameEdt: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Client
+            StyleLookup = 'EditTabStyle'
+            TabOrder = 0
+            Text = 'Tab name'
+            Margins.Left = 15.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 15.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Size.Width = 489.000000000000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+            object TabEditBtn: TButton
+              Align = Right
+              IconTintColor = xFFDADBDB
+              Position.X = 448.000000000000000000
+              Size.Width = 41.000000000000000000
+              Size.Height = 40.000000000000000000
+              Size.PlatformDefault = False
+              StyleLookup = 'ButtonPencilStyle'
+              TabOrder = 0
+              Text = 'TabEditBtn'
+            end
+          end
+        end
+        object OrderNumberLayout: TLayout
+          Align = Client
+          Size.Width = 519.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          object AssignBtn: TButton
+            Align = Right
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 2.000000000000000000
+            Margins.Right = 15.000000000000000000
+            Margins.Bottom = 2.000000000000000000
+            Position.X = 321.000000000000000000
+            Position.Y = 2.000000000000000000
+            Size.Width = 183.000000000000000000
+            Size.Height = 36.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'ButtonRoundedTransparentStyle'
+            TabOrder = 0
+            Text = 'Assign to Customer'
+          end
+          object OrderNumberLbl: TLabel
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family, Style]
+            Margins.Left = 15.000000000000000000
+            Margins.Top = 2.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 2.000000000000000000
+            Size.Width = 296.000000000000000000
+            Size.Height = 36.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 20.000000000000000000
+            TextSettings.FontColor = xFFB6B8B9
+            TextSettings.WordWrap = False
+            Text = 'Order Number : 123456'
+            TabOrder = 1
+          end
+        end
+      end
+    end
+    object GoodsLB: TListBox
+      Align = Client
+      Margins.Left = 20.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 20.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Size.Width = 479.000000000000000000
+      Size.Height = 658.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'FullTransparentListboxStyle'
+      TabOrder = 1
+      OnResized = GoodsLBResized
+      ShowScrollBars = False
+      Columns = 3
+      DisableFocusEffect = True
+      DefaultItemStyles.ItemStyle = 'ListboxItemGoodsStyle'
+      DefaultItemStyles.GroupHeaderStyle = ''
+      DefaultItemStyles.GroupFooterStyle = ''
+      OnItemClick = GoodsLBItemClick
+      Viewport.Width = 475.000000000000000000
+      Viewport.Height = 654.000000000000000000
+    end
+  end
+  object LeftPane: TLayout
+    Align = Left
+    Size.Width = 270.000000000000000000
+    Size.Height = 768.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object TopInfoPane: TLayout
+      Align = Top
+      Size.Width = 270.000000000000000000
+      Size.Height = 90.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object TableInfoGPL: TGridPanelLayout
+        Align = Client
+        Size.Width = 270.000000000000000000
+        Size.Height = 90.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        ColumnCollection = <
+          item
+            Value = 50.000000000000000000
+          end
+          item
+            Value = 50.000000000000000000
+          end>
+        ControlCollection = <
+          item
+            Column = 0
+            Control = GuestsPnl
+            Row = 0
+          end
+          item
+            Column = 1
+            Control = TablePnl
+            Row = 0
+          end>
+        RowCollection = <
+          item
+            Value = 100.000000000000000000
+          end
+          item
+            SizeStyle = Auto
+          end>
+        object GuestsPnl: TPanel
+          Align = Client
+          HitTest = False
+          Size.Width = 135.000000000000000000
+          Size.Height = 90.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'HeaderStyle'
+          TabOrder = 0
+          object GuestsCaption: TText
+            Align = Top
+            Size.Width = 135.000000000000000000
+            Size.Height = 33.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Guests'
+            TextSettings.Font.Size = 22.000000000000000000
+            TextSettings.FontColor = xFFA3AEB8
+          end
+          object EditGuestsBtn: TButton
+            Anchors = [akRight, akBottom]
+            IconTintColor = xFF8FB2D9
+            Position.X = 100.000000000000000000
+            Position.Y = 53.000000000000000000
+            Size.Width = 32.000000000000000000
+            Size.Height = 32.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'ButtonPencilStyle'
+            TabOrder = 1
+            Text = 'EditGuestsBtn'
+          end
+          object GuestsTxt: TText
+            Align = Client
+            HitTest = False
+            Size.Width = 135.000000000000000000
+            Size.Height = 57.000000000000000000
+            Size.PlatformDefault = False
+            Text = '4'
+            TextSettings.Font.Size = 45.000000000000000000
+            TextSettings.FontColor = claWhite
+          end
+        end
+        object TablePnl: TPanel
+          Align = Client
+          HitTest = False
+          Size.Width = 135.000000000000000000
+          Size.Height = 90.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'HeaderStyle'
+          TabOrder = 1
+          object TableCaption: TText
+            Align = Top
+            Size.Width = 135.000000000000000000
+            Size.Height = 33.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Table'
+            TextSettings.Font.Size = 22.000000000000000000
+            TextSettings.FontColor = xFFA3AEB8
+          end
+          object EditTableBtn: TButton
+            Anchors = [akRight, akBottom]
+            IconTintColor = xFF8FB2D9
+            Position.X = 100.000000000000000000
+            Position.Y = 53.000000000000000000
+            Size.Width = 32.000000000000000000
+            Size.Height = 32.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'ButtonPencilStyle'
+            TabOrder = 1
+            Text = 'Button10'
+          end
+          object TableNumTxt: TText
+            Align = Client
+            HitTest = False
+            Size.Width = 135.000000000000000000
+            Size.Height = 57.000000000000000000
+            Size.PlatformDefault = False
+            Text = '15'
+            TextSettings.Font.Size = 45.000000000000000000
+            TextSettings.FontColor = claWhite
+          end
+        end
+      end
+    end
+    object OrderButtonsPane: TGridPanelLayout
+      Align = Top
+      Position.Y = 90.000000000000000000
+      Size.Width = 270.000000000000000000
+      Size.Height = 75.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      ColumnCollection = <
+        item
+          Value = 24.999270946420210000
+        end
+        item
+          Value = 25.000244782406290000
+        end
+        item
+          Value = 25.000341145904240000
+        end
+        item
+          Value = 25.000143125269250000
+        end>
+      ControlCollection = <
+        item
+          Column = 0
+          Control = PrintBtn
+          Row = 0
+        end
+        item
+          Column = 1
+          Control = DiscountBtn
+          Row = 0
+        end
+        item
+          Column = 2
+          Control = SplitBtn
+          Row = 0
+        end
+        item
+          Column = 3
+          Control = AdvancedBtn
+          Row = 0
+        end>
+      RowCollection = <
+        item
+          Value = 100.000000000000000000
+        end
+        item
+          SizeStyle = Auto
+        end>
+      object PrintBtn: TButton
+        Align = Client
+        Size.Width = 67.498031616210940000
+        Size.Height = 75.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'ButtonOrderPrintStyle'
+        TabOrder = 3
+        Text = 'Print'
+      end
+      object DiscountBtn: TButton
+        Align = Client
+        Size.Width = 67.500656127929690000
+        Size.Height = 75.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'ButtonOrderDiscountStyle'
+        TabOrder = 2
+        Text = 'Discount'
+      end
+      object SplitBtn: TButton
+        Align = Client
+        Size.Width = 67.500915527343750000
+        Size.Height = 75.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'ButtonOrderSplitStyle'
+        TabOrder = 1
+        Text = 'Split'
+      end
+      object AdvancedBtn: TButton
+        Align = Client
+        Size.Width = 67.500396728515630000
+        Size.Height = 75.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'ButtonOrderAdvancedStyle'
+        TabOrder = 0
+        Text = 'Advanced'
+      end
+    end
+    object BottomInfoPane: TLayout
+      Align = Bottom
+      Position.Y = 578.000000000000000000
+      Size.Width = 270.000000000000000000
+      Size.Height = 190.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      object AmountInfoLayout: TLayout
+        Align = Top
+        Size.Width = 270.000000000000000000
+        Size.Height = 100.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object AmountBackground: TPanel
+          Align = Client
+          Size.Width = 270.000000000000000000
+          Size.Height = 100.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'HeaderStyle'
+          TabOrder = 0
+          object AmountCaption: TText
+            Align = Top
+            Size.Width = 270.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Amount Due:'
+            TextSettings.Font.Size = 30.000000000000000000
+            TextSettings.FontColor = claWhite
+            TextSettings.VertAlign = Leading
+          end
+          object AmountTxt: TText
+            Align = Client
+            Size.Width = 270.000000000000000000
+            Size.Height = 59.000000000000000000
+            Size.PlatformDefault = False
+            Text = '$00.00'
+            TextSettings.Font.Size = 45.000000000000000000
+            TextSettings.FontColor = claWhite
+          end
+        end
+      end
+      object BottomButtons: TGridPanelLayout
+        Align = Client
+        Size.Width = 270.000000000000000000
+        Size.Height = 90.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        ColumnCollection = <
+          item
+            Value = 50.000000000000000000
+          end
+          item
+            Value = 50.000000000000000000
+          end>
+        ControlCollection = <
+          item
+            Column = 0
+            Control = SendBtn
+            Row = 0
+          end
+          item
+            Column = 1
+            Control = PayBtn
+            Row = 0
+          end>
+        RowCollection = <
+          item
+            Value = 100.000000000000000000
+          end
+          item
+            SizeStyle = Auto
+          end>
+        object SendBtn: TButton
+          Align = Client
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 10.000000000000000000
+          Size.Width = 125.000000000000000000
+          Size.Height = 75.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'ButtonRoundedGreyStyle'
+          TabOrder = 0
+          Text = 'Send'
+          OnClick = SendBtnClick
+        end
+        object PayBtn: TButton
+          Align = Client
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 10.000000000000000000
+          Size.Width = 125.000000000000000000
+          Size.Height = 75.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'ButtonRoundedGreenStyle'
+          TabOrder = 1
+          Text = 'Pay'
+          OnClick = PayBtnClick
+        end
+      end
+    end
+    inline OrderDetailsFrame1: TOrderDetailsFrame
+      Align = Client
+      Size.Width = 270.000000000000000000
+      Size.Height = 413.000000000000000000
+      Size.PlatformDefault = False
+      inherited OrderLB: TListBox
+        Size.Height = 380.000000000000000000
+        Viewport.Width = 266.000000000000000000
+        Viewport.Height = 376.000000000000000000
+      end
+      inherited Rectangle1: TRectangle
+        inherited Text7: TText
+          Position.X = 195.000000000000000000
+          Size.Width = 75.000000000000000000
+        end
+        inherited Text8: TText
+          Position.X = 155.000000000000000000
+        end
+      end
+    end
+  end
+  object RightPane: TLayout
+    Align = Right
+    Position.X = 789.000000000000000000
+    Size.Width = 235.000000000000000000
+    Size.Height = 768.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object RightPnl: TPanel
+      Align = Contents
+      Size.Width = 235.000000000000000000
+      Size.Height = 768.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'HeaderStyle'
+      TabOrder = 0
+      inline RigthCategoriesFrame1: TRigthCategoriesFrame
+        Align = Client
+        Size.Width = 235.000000000000000000
+        Size.Height = 718.000000000000000000
+        Size.PlatformDefault = False
+        inherited CategoriesLB: TListBox
+          Size.Width = 235.000000000000000000
+          Size.Height = 608.000000000000000000
+          Viewport.Width = 231.000000000000000000
+          Viewport.Height = 604.000000000000000000
+        end
+        inherited FlyButtonLayout: TLayout
+          Position.Y = 60.000000000000000000
+          Size.Height = 603.000000000000000000
+          inherited ExpandBtn: TButton
+            OnClick = RigthCategoriesFrame1ExpandBtnClick
+          end
+        end
+        inherited ScrollDownBtn: TButton
+          Position.Y = 663.000000000000000000
+          Size.Width = 235.000000000000000000
+        end
+        inherited ScrollUpBtn: TButton
+          Margins.Top = 5.000000000000000000
+          Position.Y = 5.000000000000000000
+          Size.Width = 235.000000000000000000
+        end
+      end
+      object SearchLayout: TLayout
+        Align = Top
+        Size.Width = 235.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        object SearchBtn: TButton
+          Align = Client
+          IconTintColor = xFFA7B0B8
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 7.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 225.000000000000000000
+          Size.Height = 38.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'ButtonSearchStyle'
+          TabOrder = 0
+          Text = 'Search menu'
+          TextSettings.HorzAlign = Leading
+        end
+      end
+    end
+  end
+end

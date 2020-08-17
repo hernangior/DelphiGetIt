@@ -1,0 +1,157 @@
+object FrameTabsList: TFrameTabsList
+  Size.Width = 887.000000000000000000
+  Size.Height = 521.000000000000000000
+  Size.PlatformDefault = False
+  object LayoutMainInfo: TLayout
+    Align = Client
+    Size.Width = 887.000000000000000000
+    Size.Height = 521.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object TopButtonsLayout: TLayout
+      Align = Top
+      Size.Width = 887.000000000000000000
+      Size.Height = 61.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object ButtonsGPL: TGridPanelLayout
+        Align = Top
+        Margins.Left = 30.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 30.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Position.X = 30.000000000000000000
+        Position.Y = 5.000000000000000000
+        Size.Width = 827.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        ColumnCollection = <
+          item
+            Value = 25.000024367939000000
+          end
+          item
+            Value = 24.999914594133840000
+          end
+          item
+            Value = 25.000003923938350000
+          end
+          item
+            Value = 25.000057113988800000
+          end>
+        ControlCollection = <
+          item
+            Column = 0
+            Control = btnNewest
+            Row = 0
+          end
+          item
+            Column = 1
+            Control = btnOldest
+            Row = 0
+          end
+          item
+            Column = 2
+            Control = btnAZ
+            Row = 0
+          end
+          item
+            Column = 3
+            Control = btnZA
+            Row = 0
+          end>
+        RowCollection = <
+          item
+            Value = 100.000000000000000000
+          end
+          item
+            SizeStyle = Auto
+          end>
+        object btnNewest: TSpeedButton
+          Tag = 2
+          StaysPressed = True
+          Align = Client
+          GroupName = 'OrderingButtons'
+          IsPressed = True
+          Margins.Left = 20.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 20.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 166.750198364257800000
+          Size.Height = 34.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'ButtonTabsStyle'
+          Text = 'Newest'
+          OnClick = btnOrderingClick
+        end
+        object btnOldest: TSpeedButton
+          Tag = 3
+          StaysPressed = True
+          Align = Client
+          GroupName = 'OrderingButtons'
+          Margins.Left = 20.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 20.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 166.749313354492200000
+          Size.Height = 34.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'ButtonTabsStyle'
+          Text = 'Oldest'
+          OnClick = btnOrderingClick
+        end
+        object btnAZ: TSpeedButton
+          StaysPressed = True
+          Align = Client
+          GroupName = 'OrderingButtons'
+          Margins.Left = 20.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 20.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 166.750000000000000000
+          Size.Height = 34.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'ButtonTabsStyle'
+          Text = 'A .. Z'
+          OnClick = btnOrderingClick
+        end
+        object btnZA: TSpeedButton
+          Tag = 1
+          StaysPressed = True
+          Align = Client
+          GroupName = 'OrderingButtons'
+          Margins.Left = 20.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 20.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 166.750488281250000000
+          Size.Height = 34.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'ButtonTabsStyle'
+          Text = 'Z .. A'
+          OnClick = btnOrderingClick
+        end
+      end
+    end
+    object Tabslb: TListBox
+      Align = Client
+      Margins.Left = 30.000000000000000000
+      Margins.Top = 20.000000000000000000
+      Margins.Right = 30.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Size.Width = 827.000000000000000000
+      Size.Height = 430.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'TransparentTabsListboxStyle'
+      TabOrder = 2
+      Columns = 2
+      DisableFocusEffect = True
+      DefaultItemStyles.ItemStyle = 'TabsListboxItemRestaurantStyle'
+      DefaultItemStyles.GroupHeaderStyle = ''
+      DefaultItemStyles.GroupFooterStyle = ''
+      OnCompare = TabslbCompare
+      Viewport.Width = 823.000000000000000000
+      Viewport.Height = 426.000000000000000000
+    end
+  end
+end

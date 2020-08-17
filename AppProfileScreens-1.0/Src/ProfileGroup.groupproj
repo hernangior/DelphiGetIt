@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{3A6AD5AA-945A-480E-81EC-FD1A3143B79E}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="ProfileForm1.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ProfileForm2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ProfileForm3.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ProfileForm1">
+        <MSBuild Projects="ProfileForm1.dproj"/>
+    </Target>
+    <Target Name="ProfileForm1:Clean">
+        <MSBuild Projects="ProfileForm1.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ProfileForm1:Make">
+        <MSBuild Projects="ProfileForm1.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ProfileForm2">
+        <MSBuild Projects="ProfileForm2.dproj"/>
+    </Target>
+    <Target Name="ProfileForm2:Clean">
+        <MSBuild Projects="ProfileForm2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ProfileForm2:Make">
+        <MSBuild Projects="ProfileForm2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ProfileForm3">
+        <MSBuild Projects="ProfileForm3.dproj"/>
+    </Target>
+    <Target Name="ProfileForm3:Clean">
+        <MSBuild Projects="ProfileForm3.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ProfileForm3:Make">
+        <MSBuild Projects="ProfileForm3.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ProfileForm1;ProfileForm2;ProfileForm3"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ProfileForm1:Clean;ProfileForm2:Clean;ProfileForm3:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ProfileForm1:Make;ProfileForm2:Make;ProfileForm3:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

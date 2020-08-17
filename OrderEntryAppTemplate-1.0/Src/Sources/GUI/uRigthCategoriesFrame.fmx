@@ -1,0 +1,64 @@
+object RigthCategoriesFrame: TRigthCategoriesFrame
+  Size.Width = 288.000000000000000000
+  Size.Height = 687.000000000000000000
+  Size.PlatformDefault = False
+  object CategoriesLB: TListBox
+    Align = Contents
+    Margins.Top = 55.000000000000000000
+    Margins.Bottom = 55.000000000000000000
+    Size.Width = 288.000000000000000000
+    Size.Height = 577.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'TransparentCategoriesListboxStyle'
+    TabOrder = 2
+    ShowScrollBars = False
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = 'ListboxItemCategoryVStyle'
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 288.000000000000000000
+    Viewport.Height = 577.000000000000000000
+  end
+  object FlyButtonLayout: TLayout
+    Align = Left
+    HitTest = True
+    Margins.Left = -18.000000000000000000
+    Position.X = -18.000000000000000000
+    Position.Y = 55.000000000000000000
+    Size.Width = 1.000000000000000000
+    Size.Height = 577.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object ExpandBtn: TButton
+      Align = Center
+      Margins.Left = 35.000000000000000000
+      Size.Width = 36.000000000000000000
+      Size.Height = 36.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'RoundSwitchButtonStyle'
+      TabOrder = 0
+      Text = 'ExpandBtn'
+    end
+  end
+  object ScrollDownBtn: TButton
+    Align = Bottom
+    Position.Y = 632.000000000000000000
+    Size.Width = 288.000000000000000000
+    Size.Height = 55.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'ButtonArrowDownStyle'
+    TabOrder = 3
+    Text = 'ScrollDownBtn'
+    OnClick = ScrollDownBtnClick
+  end
+  object ScrollUpBtn: TButton
+    Align = Top
+    Size.Width = 288.000000000000000000
+    Size.Height = 55.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'ButtonArrowUpStyle'
+    TabOrder = 4
+    Text = 'ScrollUpBtn'
+    OnClick = ScrollUpBtnClick
+  end
+end

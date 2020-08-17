@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{24F47B0E-690D-4740-B718-4583B10C856B}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="ContactsProject1.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ContactsProject2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ContactsProject3.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ContactsProject1">
+        <MSBuild Projects="ContactsProject1.dproj"/>
+    </Target>
+    <Target Name="ContactsProject1:Clean">
+        <MSBuild Projects="ContactsProject1.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ContactsProject1:Make">
+        <MSBuild Projects="ContactsProject1.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ContactsProject2">
+        <MSBuild Projects="ContactsProject2.dproj"/>
+    </Target>
+    <Target Name="ContactsProject2:Clean">
+        <MSBuild Projects="ContactsProject2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ContactsProject2:Make">
+        <MSBuild Projects="ContactsProject2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ContactsProject3">
+        <MSBuild Projects="ContactsProject3.dproj"/>
+    </Target>
+    <Target Name="ContactsProject3:Clean">
+        <MSBuild Projects="ContactsProject3.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ContactsProject3:Make">
+        <MSBuild Projects="ContactsProject3.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ContactsProject1;ContactsProject2;ContactsProject3"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ContactsProject1:Clean;ContactsProject2:Clean;ContactsProject3:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ContactsProject1:Make;ContactsProject2:Make;ContactsProject3:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

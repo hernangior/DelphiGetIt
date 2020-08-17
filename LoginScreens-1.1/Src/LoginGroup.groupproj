@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{87984CE5-BF62-4A48-9123-D95F05CCC282}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="LoginProject1.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="LoginProject2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="LoginProject3.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="LoginProject1">
+        <MSBuild Projects="LoginProject1.dproj"/>
+    </Target>
+    <Target Name="LoginProject1:Clean">
+        <MSBuild Projects="LoginProject1.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="LoginProject1:Make">
+        <MSBuild Projects="LoginProject1.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="LoginProject2">
+        <MSBuild Projects="LoginProject2.dproj"/>
+    </Target>
+    <Target Name="LoginProject2:Clean">
+        <MSBuild Projects="LoginProject2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="LoginProject2:Make">
+        <MSBuild Projects="LoginProject2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="LoginProject3">
+        <MSBuild Projects="LoginProject3.dproj"/>
+    </Target>
+    <Target Name="LoginProject3:Clean">
+        <MSBuild Projects="LoginProject3.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="LoginProject3:Make">
+        <MSBuild Projects="LoginProject3.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="LoginProject1;LoginProject2;LoginProject3"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="LoginProject1:Clean;LoginProject2:Clean;LoginProject3:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="LoginProject1:Make;LoginProject2:Make;LoginProject3:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

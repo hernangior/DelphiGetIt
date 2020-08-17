@@ -1,0 +1,496 @@
+object ModifiersForm: TModifiersForm
+  Left = 0
+  Top = 0
+  Caption = 'Modifiers'
+  ClientHeight = 518
+  ClientWidth = 766
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object Caption: TPanel
+    Align = Top
+    Size.Width = 766.000000000000000000
+    Size.Height = 65.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'HeaderStyle'
+    TabOrder = 0
+    object itemNameTxt: TText
+      Align = Client
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Size.Width = 746.000000000000000000
+      Size.Height = 45.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Item Name'
+      TextSettings.Font.Size = 36.000000000000000000
+      TextSettings.FontColor = claWhite
+    end
+  end
+  object FinalButtonsPnl: TPanel
+    Align = Bottom
+    Position.Y = 362.000000000000000000
+    Size.Width = 766.000000000000000000
+    Size.Height = 78.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'DarkPanelStyle'
+    Visible = False
+    TabOrder = 2
+    object GridPanelLayout4: TGridPanelLayout
+      Align = Client
+      Size.Width = 766.000000000000000000
+      Size.Height = 78.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      ColumnCollection = <
+        item
+          Value = 33.500938508656790000
+        end
+        item
+          Value = 33.332925926177420000
+        end
+        item
+          Value = 33.166135565165780000
+        end>
+      ControlCollection = <
+        item
+          Column = 0
+          Control = CustomBtn
+          Row = 0
+        end
+        item
+          Column = 1
+          Control = BackBtn
+          Row = 0
+        end
+        item
+          Column = 2
+          Control = DoneBtn
+          Row = 0
+        end>
+      RowCollection = <
+        item
+          Value = 100.000000000000000000
+        end
+        item
+          SizeStyle = Auto
+        end>
+      object CustomBtn: TButton
+        Align = Client
+        Margins.Left = 15.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 15.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Size.Width = 226.617187500000000000
+        Size.Height = 58.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'ButtonCustomStyle'
+        TabOrder = 0
+        Text = 'Custom'
+      end
+      object BackBtn: TButton
+        Align = Client
+        Margins.Left = 15.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 15.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Size.Width = 225.330200195312500000
+        Size.Height = 58.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'ButtonBackStyle'
+        TabOrder = 1
+        Text = 'Back'
+        OnClick = BackBtnClick
+      end
+      object DoneBtn: TButton
+        Align = Client
+        Margins.Left = 15.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 15.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Size.Width = 224.052612304687500000
+        Size.Height = 58.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'ButtonDoneStyle'
+        TabOrder = 2
+        Text = 'Done'
+        OnClick = DoneBtnClick
+      end
+    end
+  end
+  object FramesLayout: TLayout
+    Align = Client
+    Size.Width = 766.000000000000000000
+    Size.Height = 375.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    object SummaryPnl: TPanel
+      Align = Client
+      Size.Width = 766.000000000000000000
+      Size.Height = 375.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'TwoColorsPanelStyle'
+      Visible = False
+      TabOrder = 0
+      object GridPanelLayout1: TGridPanelLayout
+        Align = Client
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 20.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 20.000000000000000000
+        Size.Width = 746.000000000000000000
+        Size.Height = 335.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        ColumnCollection = <
+          item
+            Value = 100.000000000000000000
+          end>
+        ControlCollection = <
+          item
+            Column = 0
+            Control = ToppingsPnl
+            Row = 0
+          end
+          item
+            Column = 0
+            Control = SidesPnl
+            Row = 1
+          end>
+        RowCollection = <
+          item
+            Value = 50.344844095656360000
+          end
+          item
+            Value = 49.655155904343650000
+          end>
+        object ToppingsPnl: TPanel
+          Align = Client
+          Margins.Bottom = 7.000000000000000000
+          Size.Width = 746.000000000000000000
+          Size.Height = 161.655227661132800000
+          Size.PlatformDefault = False
+          StyleLookup = 'ShadedPanelStyle'
+          TabOrder = 0
+          object ToppingsCaption: TText
+            Align = Top
+            Margins.Left = 15.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 15.000000000000000000
+            Position.X = 15.000000000000000000
+            Position.Y = 5.000000000000000000
+            Size.Width = 716.000000000000000000
+            Size.Height = 42.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Toppings'
+            TextSettings.Font.Size = 32.000000000000000000
+            TextSettings.HorzAlign = Leading
+            TextSettings.VertAlign = Trailing
+          end
+          object GridPanelLayout2: TGridPanelLayout
+            Align = Client
+            Margins.Left = 15.000000000000000000
+            Margins.Top = 15.000000000000000000
+            Margins.Right = 15.000000000000000000
+            Margins.Bottom = 10.000000000000000000
+            Size.Width = 716.000000000000000000
+            Size.Height = 89.655227661132810000
+            Size.PlatformDefault = False
+            TabOrder = 1
+            ColumnCollection = <
+              item
+                SizeStyle = Absolute
+                Value = 70.000000000000000000
+              end
+              item
+                Value = 100.000000000000000000
+              end>
+            ControlCollection = <
+              item
+                Column = 0
+                Control = Text3
+                Row = 0
+              end
+              item
+                Column = 1
+                Control = AddToppingTxt
+                Row = 0
+              end
+              item
+                Column = 0
+                Control = Text7
+                Row = 1
+              end
+              item
+                Column = 1
+                Control = NoToppingTxt
+                Row = 1
+              end>
+            RowCollection = <
+              item
+                Value = 50.251046129000070000
+              end
+              item
+                Value = 49.748953870999930000
+              end
+              item
+                SizeStyle = Auto
+              end>
+            object Text3: TText
+              Align = Client
+              Size.Width = 70.000000000000000000
+              Size.Height = 45.052688598632810000
+              Size.PlatformDefault = False
+              Text = 'Add'
+              TextSettings.Font.Size = 22.000000000000000000
+              TextSettings.FontColor = claMaroon
+              TextSettings.HorzAlign = Leading
+            end
+            object AddToppingTxt: TText
+              Align = Client
+              Margins.Left = 5.000000000000000000
+              Size.Width = 641.000000000000000000
+              Size.Height = 45.052688598632810000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 24.000000000000000000
+              TextSettings.HorzAlign = Leading
+            end
+            object Text7: TText
+              Align = Client
+              Size.Width = 70.000000000000000000
+              Size.Height = 44.602539062500000000
+              Size.PlatformDefault = False
+              Text = 'No'
+              TextSettings.Font.Size = 22.000000000000000000
+              TextSettings.FontColor = claMaroon
+              TextSettings.HorzAlign = Leading
+            end
+            object NoToppingTxt: TText
+              Align = Client
+              Margins.Left = 5.000000000000000000
+              Size.Width = 641.000000000000000000
+              Size.Height = 44.602539062500000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 24.000000000000000000
+              TextSettings.HorzAlign = Leading
+            end
+          end
+        end
+        object SidesPnl: TPanel
+          Align = Client
+          Margins.Top = 7.000000000000000000
+          Size.Width = 746.000000000000000000
+          Size.Height = 159.344772338867200000
+          Size.PlatformDefault = False
+          StyleLookup = 'ShadedPanelStyle'
+          TabOrder = 1
+          object SidesCaption: TText
+            Align = Top
+            Margins.Left = 15.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 15.000000000000000000
+            Position.X = 15.000000000000000000
+            Position.Y = 5.000000000000000000
+            Size.Width = 716.000000000000000000
+            Size.Height = 42.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Sides'
+            TextSettings.Font.Size = 32.000000000000000000
+            TextSettings.HorzAlign = Leading
+            TextSettings.VertAlign = Trailing
+          end
+          object SidesLB: TListBox
+            Align = Client
+            Margins.Left = 15.000000000000000000
+            Margins.Top = 10.000000000000000000
+            Margins.Right = 15.000000000000000000
+            Margins.Bottom = 10.000000000000000000
+            Size.Width = 716.000000000000000000
+            Size.Height = 92.344772338867190000
+            Size.PlatformDefault = False
+            StyleLookup = 'TransparentListboxStyle'
+            TabOrder = 1
+            DisableFocusEffect = True
+            DefaultItemStyles.ItemStyle = ''
+            DefaultItemStyles.GroupHeaderStyle = ''
+            DefaultItemStyles.GroupFooterStyle = ''
+            Viewport.Width = 716.000000000000000000
+            Viewport.Height = 92.300000000000000000
+          end
+        end
+      end
+    end
+    object SelectionPnl: TPanel
+      Align = Client
+      Size.Width = 766.000000000000000000
+      Size.Height = 375.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'TwoColorsPanelStyle'
+      TabOrder = 1
+      object Panel1: TPanel
+        Align = Client
+        Margins.Left = 15.000000000000000000
+        Margins.Top = 30.000000000000000000
+        Margins.Right = 15.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Size.Width = 736.000000000000000000
+        Size.Height = 335.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'ShadedPanelStyle'
+        TabOrder = 0
+        object SelectionCB: TComboBox
+          Align = Top
+          ItemIndex = 0
+          DropDownKind = Custom
+          Margins.Left = 15.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 15.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Position.X = 15.000000000000000000
+          Position.Y = 5.000000000000000000
+          Size.Width = 706.000000000000000000
+          Size.Height = 45.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'ComboBoxModifiersStyle'
+          TabOrder = 0
+          OnChange = SelectionCBChange
+          object ToppingsItem: TListBoxItem
+            IsSelected = True
+            Size.Width = 19.000000000000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'ListboxItemModifiersStyle'
+            TabOrder = 0
+            Text = 'Toppings'
+          end
+          object SidesItem: TListBoxItem
+            Size.Width = 19.000000000000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'ListboxItemModifiersStyle'
+            TabOrder = 1
+            Text = 'Sides'
+          end
+        end
+        object GridPanelLayout3: TGridPanelLayout
+          Align = Bottom
+          Position.Y = 285.000000000000000000
+          Size.Width = 736.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          ColumnCollection = <
+            item
+              Value = 50.015656112150220000
+            end
+            item
+              Value = 49.984343887849780000
+            end>
+          ControlCollection = <
+            item
+              Column = 0
+              Control = NoBtn
+              Row = 0
+            end
+            item
+              Column = 1
+              Control = YesBtn
+              Row = 0
+            end>
+          RowCollection = <
+            item
+              Value = 100.000000000000000000
+            end
+            item
+              SizeStyle = Auto
+            end>
+          object NoBtn: TSpeedButton
+            Align = Client
+            Margins.Left = 15.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 15.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Size.Width = 338.115234375000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'ButtonRoundedLightGreyStyle'
+            Text = 'No'
+            OnClick = NoBtnClick
+          end
+          object YesBtn: TSpeedButton
+            Align = Client
+            Margins.Left = 15.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 15.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Size.Width = 337.884765625000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'ButtonRoundedLightGreyStyle'
+            Text = 'Yes'
+            OnClick = YesBtnClick
+          end
+        end
+        object ModifiersLB: TListBox
+          Align = Client
+          Margins.Left = 25.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 25.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 686.000000000000000000
+          Size.Height = 220.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'TransparentModifiersListboxStyle'
+          TabOrder = 2
+          DisableFocusEffect = True
+          ItemIndex = 0
+          DefaultItemStyles.ItemStyle = ''
+          DefaultItemStyles.GroupHeaderStyle = ''
+          DefaultItemStyles.GroupFooterStyle = ''
+          MultiSelectStyle = Default
+          Viewport.Width = 682.000000000000000000
+          Viewport.Height = 216.000000000000000000
+        end
+      end
+    end
+  end
+  object FirstButtonsPnl: TPanel
+    Align = Bottom
+    Position.Y = 440.000000000000000000
+    Size.Width = 766.000000000000000000
+    Size.Height = 78.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'DarkPanelStyle'
+    TabOrder = 1
+    object CancelBtn: TButton
+      Anchors = [akLeft, akTop, akRight]
+      Position.X = 136.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 201.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'ButtonCancelStyle'
+      TabOrder = 0
+      Text = 'Cancel'
+      OnClick = CancelBtnClick
+    end
+    object NextBtn: TButton
+      Anchors = [akLeft, akTop, akRight]
+      Position.X = 456.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 201.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'ButtonNextStyle'
+      TabOrder = 1
+      Text = 'Next'
+      OnClick = NextBtnClick
+    end
+  end
+end
